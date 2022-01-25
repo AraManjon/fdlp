@@ -1,6 +1,5 @@
 # FONAMENTS DE LA PROGRAMACIÓ AMB JAVASCRIPT
 
-
 5 consells per a un/a futur/a programador/a:
 
 **- Ordenat en programació.**
@@ -52,7 +51,7 @@ Exemple:
 2 variable = '5'; /* la variable és de tipus string */
 ```
 
-**3. JavaScript és un llenguatge de tipat dèbil o no tipat**. Vol dir que es un llenguatge amb el qual la declaració de variables no és requereix especificar quin tipus de dada tindrà.
+**3. JavaScript és un llenguatge de tipat dèbil o no tipat**. Vol dir que és un llenguatge amb el qual la declaració de variables no és requereix especificar quin tipus de dada tindrà.
 
 Exemple:
 ```
