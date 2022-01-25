@@ -93,7 +93,7 @@ Exemple:
 ```
 const firstName = 'Pepito'
 firsName.toUpperCase()
-console.log(firstName) // output: Pepito, expected: PEPITOS
+console.log(firstName) // output: Pepito, expected: PEPITO
 ```
 
 No es modifica l'string original, si no que el mètode ```toUpperCase()``` retorna un nou string.
