@@ -22,6 +22,15 @@ Commands:
 
 > **type nul >** *nom-arxiu* (Windows: per crear un arxiu)
 
+Notes:
+
+> **rm** *nom-arxiu* (Apple & Windows: esborrar arxius)
+> **rm -rf** *nom-carpeta* (Apple & Windows: esborrar carpetas)
+
+> **fsutil file createnew** *nom-arxiu* **0** (Windows: una altre opció per crear un arxiu)
+
+> **code .** ens obrirà el vsc des de la carpeta on estem situats
+
 ### Creem contingut a l'Html
 
 ![Exemple de com crear el contingut en un arxiu Html](./primer-html.png)
@@ -45,3 +54,6 @@ Importem arxius .js:
 <script src="script.js"></scrript>
 ```
 I dins l'arxiu scrpit.js és on afegirem el codi javascript ```console.log('hello world')```
+
+Notes: 
+> Instal·lar Livee Server com a extensió en el VSCode
