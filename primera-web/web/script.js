@@ -1,7 +1,8 @@
-
+const greeting = 'hi'
 
 function sayHello () {
-    console.log(greeting)
-    let greeting = 'hello world'
-    console.log(greeting)
+    const greeting = 'hello world'
+    console.log('inside', greeting)
 }
+
+console.log('outside', greeting)

@@ -61,7 +61,7 @@ Notes:
 
 ### **var**
 
-Amb Javascript clàssic es feia servir la paraula **var**.Let i const és van introduir en l'ECMAScript6. Però hauríem d'evitar el seu ús, ja que no permet declarar variables en àmbit de bloc.
+Amb Javascript clàssic es feia servir la paraula **var**. Let i const és van introduir en l'ECMAScript6. Però hauríem d'evitar el seu ús, ja que no permet declarar variables en àmbit de bloc.
 
 Exemple:
 ```
@@ -159,16 +159,10 @@ Això ens permet executar una funció abans de la seva declaració:
 
 Exemple: 
 ```
-1 greet()
+1 greet() // Executa la funció
 2 function greet() {
 3   console.log('Hello')
 4 }
-```
-
-```
-1 function greet() {
-2   console.log('Hello')
-3 }
 ```
 
 ```
