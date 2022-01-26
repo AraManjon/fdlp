@@ -94,11 +94,7 @@ typeof instance === "symbol"
 Exemple:
 ```
 const firstName = 'Pepito'
-<<<<<<< HEAD
 firstName.toUpperCase()
-=======
-firsName.toUpperCase()
->>>>>>> 6f515cadbf509ad0e323c83da87f5d2bf57d58fb
 console.log(firstName) // output: Pepito, expected: PEPITO
 ```
 
@@ -261,10 +257,4 @@ console.log(colors) // Output: ['red', 'blue', 'yellow']
 Notes:
 > 🚨 Si el valor que conté aquesta estructura no és primitu, continuarà mantenint aquesta referencia, així que tindrem que trencar també la referencia d'aquest valor.
 
-<<<<<<< HEAD
 > Nous [tipus de dades](https://dev.to/briansanteliz/nuevos-tipos-de-datos-en-javascript-records-tuples-2kiev) que s'introduiran aviat en Javascript per conseguir evitar aquesta mutabilitat en objectes i arrays.
-=======
-copyPersona.edat = 46
-console.log(persona.edat) // Output: 46
-```
->>>>>>> 6f515cadbf509ad0e323c83da87f5d2bf57d58fb
