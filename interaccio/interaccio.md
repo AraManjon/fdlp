@@ -67,7 +67,7 @@ alert( isOver18 ); // true si selecciona OK
 
 ###  **Interactuar amb l'HTML**
 
-L'objecte document és la pàgina web.
+L'objecte ```document``` (DOM) és la pàgina web.
 
 Si es vol accedir a qualsevol element d'una pàgina HTML, sempre hem d'accedir al DOM.
 
@@ -89,3 +89,8 @@ Un cop tenim aquest element, el podem modificar, per exemple afegint a la propie
     </body>
 </html>
 ```
+
+### 📚 Recursos
+
+[Què és el DOM?](https://es.wikipedia.org/wiki/Document_Object_Model)
+

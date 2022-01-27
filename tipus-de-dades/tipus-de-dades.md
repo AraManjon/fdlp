@@ -186,10 +186,12 @@ Compost per una col·lecció d'elements que contenen **key** i **value**.
 
 Per accedir al valor d'una propietat, podem fer-ho a través de la key.
 ```
-const persona = { nom: 'Pepito', cognom: 'Grillo', edat: 45 }
+const persona = { nom: 'Pepito', cognom: 'Grillo', edat: 45, greeting: function() {console.log('hello!')}, cities: ['Barcelona', 'Madrid'] }
 
 console.log(persona.nom) // Output: Pepito
 console.log(persona['nom']) // Output: Pepito
+console.log(persona.cities[0]) // Output: Barcelona
+console.log(persona.greeting()) // Output: hello!
 ```
 
 També podem crear una nova propietat afegint una nova key amb un valor.
@@ -257,4 +259,4 @@ console.log(colors) // Output: ['red', 'blue', 'yellow']
 Notes:
 > 🚨 Si el valor que conté aquesta estructura no és primitu, continuarà mantenint aquesta referencia, així que tindrem que trencar també la referencia d'aquest valor.
 
-> Nous [tipus de dades](https://dev.to/briansanteliz/nuevos-tipos-de-datos-en-javascript-records-tuples-2kiev) que s'introduiran aviat en Javascript per conseguir evitar aquesta mutabilitat en objectes i arrays.
+> Nous [tipus de dades](https://dev.to/briansanteliz/nuevos-tipos-de-datos-en-javascript-records-tuples-2kie) que s'introduiran aviat en Javascript per conseguir evitar aquesta mutabilitat en objectes i arrays.

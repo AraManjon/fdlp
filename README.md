@@ -2,7 +2,7 @@
 
 **24 · Gen**
 
-x introdcucció
+x introdcuccio
 
 --------
 
@@ -18,11 +18,20 @@ x tipus-de-dades
 
 **26 · Gen**
 
-· tipus-de-dades
+x tipus-de-dades
 
-· identificadors
+x identificadors
+
+--------
+
+**27 · Gen**
 
 · operadors
 
-· interacció
+    · aritmetics
+    · comparació
+
+· interaccio
+
+· funcions
 

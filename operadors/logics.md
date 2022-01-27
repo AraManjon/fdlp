@@ -1,0 +1,7 @@
+# FONAMENTS DE LA PROGRAMACIÓ AMB JAVASCRIPT
+
+##  **Lògics**
+
+// TODO
+
+|| (OR), && (AND), ! (NOT)
