@@ -10,6 +10,16 @@ Notes:
 
 > Escriu window a la consola del navegador i podràs veure totes les funcions que conté i podem fer servir.
 
+#### **Console**
+
+L'objecte console permet access a la consola del navegador.
+
+```
+window.console.log("Hola"); // Hola
+console.log("Hola"); //Hola
+```
+
+[L'objecte console](https://dev.to/duxtech/tipos-de-objetos-console-en-javascript-parte-i-5ajb#:~:text=%F0%9F%98%8E-,El%20objeto%20window%20y%20console,js.&text=Ambos%20son%20equivalentes%2C%20pero%20siempre%20se%20usa%20la%20forma%20breve.)
 
 #### **Alert**
 
@@ -64,6 +74,9 @@ let isOver18 = confirm("Ets major d'edat?");
 
 alert( isOver18 ); // true si selecciona OK 
 ```
+
+### 📚 Recursos
+Els mètodes més utilitzats de l'[objecte window](https://desarrolloweb.com/articulos/827.php)
 
 ###  **Interactuar amb l'HTML**
 
