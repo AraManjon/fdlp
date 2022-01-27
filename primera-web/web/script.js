@@ -6,4 +6,3 @@ function sayHello () {
 }
 
 console.log('outside', greeting)
-

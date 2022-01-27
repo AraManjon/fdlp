@@ -48,7 +48,13 @@ no ${2 * a + b}.`);
 let a = 5;
 let b = 10;
 console.log(`${a}${b}`);
-// "15"
+// "150"
+```
+```
+let a = 5;
+let b = 10;
+console.log(`${a + b}`);
+// "150"
 ```
 
 🚨 De vegades trobem que aquest mètode d'encadenar, també se li diu **template strings**, no seria del tot correcte, ja que el que concatena són cadenes literals, i aquestes no hi han de ser exclusivament strings.

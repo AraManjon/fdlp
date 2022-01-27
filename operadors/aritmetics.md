@@ -3,7 +3,6 @@
 ##  **Aritmètics**
 Similars als símbols matemàtics que ja coneixem i executen operacions matemàtiques.
 
-
 | operació |   simbol |
 |----------|----------|
 |Addició |    +
@@ -15,7 +14,7 @@ Similars als símbols matemàtics que ja coneixem i executen operacions matemàt
 const suma = 2 + 2 // 4
 const resta = 2 - 2 // 0
 const multiplicacio = 4 * 2 // 8
-const divisio = 10 * 2 // 5
+const divisio = 10 / 2 // 5
 ```
 Notes:
 > També tenim el símbols ```**``` per operacions exponencials i ```%``` per extreure el restant.
@@ -87,14 +86,14 @@ console.log( counter ); // 1
 
 ```
 let counter = 1;
-let a = ++counter; // igual que a = counter i després fa counter = counter + 1
+let a = ++counter; // igual que counter = counter + 1 i després fa a = counter 
 
 console.log(a); // 2
 console.log(counter); // 2
 ```
 ```
 let counter = 1;
-let a = counter++; // igual que counter = counter + 1 i després fa a = counter
+let a = counter++; // igual que a = counter i després fa counter = counter + 1
 
 console.log(a); // 1
 console.log(counter); // 2
