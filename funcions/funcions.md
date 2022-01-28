@@ -53,3 +53,34 @@ Exemple:
 13      cancellable: true
 14   })
 ```
+###  **Retornar valors**
+
+Les funcions a Javascriot també poden retornar valors, de fet, és una de les utilitats més essencials de les funcions.
+
+Per tant, les funcions poden executar accions i retornar valors com a sortida. Aquest retorn ho aconseguim amb la paraula reservada ```return``` i seguit del valor que volem que retorni.
+
+Exemple:
+
+Tenim una funció que rep dos valors com a paràmetres i volem que calculi la mitjana. El valor de retorn serà el resultat.
+
+```
+function media(valor1,valor2){ 
+   	let result
+   	result = (valor1 + valor2) / 2 
+   	return result
+}
+
+const resultat = media(4, 4)
+console.log(resultat) // output 4
+```
+
+🚨 Tot el codi que hi hagi després del return, no s'executarà. El return suposa el final de l'acció de la funció.
+
+```
+function media(valor1,valor2){ 
+   	let result
+   	result = (valor1 + valor2) / 2 
+   	return result
+    result = 0 // Aquesta línia mai s'executarà
+}
+```
