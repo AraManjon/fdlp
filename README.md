@@ -26,12 +26,13 @@ x identificadors
 
 **27 · Gen**
 
-· operadors
+x operadors
 
-    · aritmetics
-    · comparació
+    x aritmetics
+    x comparació
 
-· interaccio
+x interaccio
+    x interaccip-web
 
-· funcions
+x funcions
 
