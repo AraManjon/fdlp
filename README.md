@@ -32,7 +32,7 @@ x operadors
     x comparació
 
 x interaccio
-    x interaccip-web
+    x interaccio-web
 
 x funcions
 
