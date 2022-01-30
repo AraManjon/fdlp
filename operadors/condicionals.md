@@ -36,7 +36,7 @@ if (isCorrect) {
 }
 ```
 
-🚨 Abans de ES6, després del ```if(...)``` sempre utilitzàvem ```{}```, amb aquesta actualització, quan dins d'un bloc només tenim una declaració, és a dir, només una línia de codi les curly braces són opcionals.
+🚨 Abans de ES6, després del ```if(...)``` sempre utilitzàvem ```{}```, amb aquesta actualització, quan dins d'un bloc només tenim una declaració, és a dir, només una línia de codi, les curly braces són opcionals.
 
 ### **Conversió**
 
@@ -49,7 +49,7 @@ if (0) {
 ```
 ```
 if (1) {
-    console.log('ha entrat')
+    console.log('entra')
 }
 ```
 
@@ -58,6 +58,8 @@ if (1) {
 ```
 Boolean('') //false
 Boolean(' ') //true
+Boolean([]) //true
+Boolean({}) //true
 ```
 
 ### **Clàusula ```else```**
