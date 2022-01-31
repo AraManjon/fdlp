@@ -36,3 +36,19 @@ x interaccio
 
 x funcions
 
+--------
+
+**CAP DE SETMANA**
+
+x M3 - ex1, ex2, ex3
+x M6 - ex1 
+
+**31 · Gen**
+
+x operadors
+
+    x condicionals
+    x logics
+
+x M4 - ex1 - ex2 - ex3
+

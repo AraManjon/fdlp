@@ -2,10 +2,6 @@
 
 ##  **Lògics**
 
-// TODO
-
-|| (OR), && (AND), ! (NOT), ?? (Nullish Coalescing).
-
 ### **```||``` (OR)**
 
 Si algun dels seus arguments és ```true```, retorna ```true```, en cas contrari retorna ```false```.
@@ -21,7 +17,7 @@ console.log( false || false ); // false
 const hour = 9;
 
 if (hour < 10 || hour > 18) {
-  console.log( 'L'oficina és tancada.' );
+  console.log( "L'oficina és tancada." );
 }
 ```
 
@@ -93,7 +89,7 @@ console.log( !0 ); //true
 const username = 'Pepito'
 
 if (!username) {
-    alert('Indica el teu nom d'usuari')
+    alert("Indica el teu nom d'usuari")
 }
 ```
 Un doble ```!!``` (NOT) de vegades s'utilitza per convertir un valor al tipus boolean:
@@ -126,7 +122,7 @@ let result = 0
 let number = null;
 
 if (number ?? false) {
-    alert('has d'intrroduir algún número')
+    alert("has d'intrroduir algún número")
 } else {
     result += number;
 }

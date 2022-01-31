@@ -14,13 +14,13 @@ let a = 2 + 2;
 switch (a) {
   case 3: // if( a === 3 )
     alert( 'Massa petit' );
-    break;
-  case 4: // if( a === 4 )
+    break; //surt de la comprobació
+  case 4: // else if( a === 4 )
     alert( 'Exacte!' );
-    break;
-  case 5: // if( a === 4 )
+    break; //surt de la comprobació
+  case 5: // else if( a === 4 )
     alert( 'Massa gran' );
-    break;
+    break; //surt de la comprobació
   default: // else
     alert( "No conec aquest valor" );
 }
@@ -38,20 +38,27 @@ switch (a) {
 Exemple:
 
 ```
-const browser = prompt('Quin navegador utilitzes?')
-switch (browser) {
-  case 'Edge':
-    console.log( "Ja tens l'Edge!!" );
-    break;
+  const mes = prompt("Indica el mes ", "escriu un mes [1-12]");
 
-  case 'Chrome':
-  case 'Firefox':
-  case 'Safari':
-  case 'Opera':
-    console.log( 'D'acord, també admetem aquests navegadors' );
-    break;
+  mes = Number(mes);
 
-  default:
-    console.log( 'Esperem que aquesta pàgina es vegi bé!' );
-}
+  let trimestre = null;
+  switch (mes) {
+    case 1:
+    case 2:
+    case 3:
+      trimestre = 1;
+      break;
+    case 4: case 5: case 6:
+      trimestre = 2;
+      break;
+    case 7: case 8: case 9:
+      trimestre = 3;
+      break;
+    case 10: case 11: case 12:
+      trimestre = 4;
+      break;
+  } 
+  
+  alert(`El trimestre del mes ${mes} és el ${trimestre} trimestre`);
 ```

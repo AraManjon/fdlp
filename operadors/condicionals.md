@@ -10,14 +10,14 @@ La sentència ```if(...)``` avalua una condició entre parèntesis i, si el resu
 
 ```
 const correctYear = 2015
-const responseYear = prompt('En quin any es va publicar l'especificació ECMAScript-2015?', '');
+const responseYear = prompt("En quin any es va publicar l'especificació ECMAScript-2015?", '');
 
 if (responseYear == correctYear) alert( 'Correcte!' );
 ```
 
 ```
 const correctYear = 2015
-const responseYear = prompt('En quin any es va publicar l'especificació ECMAScript-2015?', '');
+const responseYear = prompt("En quin any es va publicar l'especificació ECMAScript-2015?", '');
 
 if (responseYear == correctYear) {
   alert( 'Correcte!' );
@@ -27,7 +27,7 @@ if (responseYear == correctYear) {
 
 ```
 const correctYear = 2015
-const responseYear = prompt('En quin any es va publicar l'especificació ECMAScript-2015?', '');
+const responseYear = prompt("En quin any es va publicar l'especificació ECMAScript-2015?", '');
 const isCorrect = correctYear == responseYear
 
 if (isCorrect) {
@@ -68,13 +68,13 @@ La instrucció if pot contenir un bloc opcional "else". S'executa quan la condic
 
 ```
 const correctYear = 2015
-const responseYear = prompt('En quin any es va publicar l'especificació ECMAScript-2015?', '');
+const responseYear = prompt("En quin any es va publicar l'especificació ECMAScript-2015?", '');
 const isCorrect = correctYear == responseYear
 
 if (isCorrect) {
     alert( 'Correcte!' );
 } else {
-    alert( 'T'has equivocat...' );
+    alert( "T'has equivocat..." );
 }
 ```
 ### **Clàusula ```else if```**
@@ -83,7 +83,7 @@ Si volem tenir més d'una opció de condicionals que actuïn diferent en cada ca
 
 ```
 const correctYear = 2015
-const responseYear = prompt('En quin any es va publicar l'especificació ECMAScript-2015?', '');
+const responseYear = prompt("En quin any es va publicar l'especificació ECMAScript-2015?", '');
 const isEarlyYear = responseYear > correctYear
 const tooLateYear = responseYear < correctYear
 
