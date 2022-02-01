@@ -126,6 +126,33 @@ alert( fruits ); // Apple, Orange, Pear
 
 Això és perquè a l'extreure o introduir un element de l'inici de l'array, s'hi han de recol·lorcar tots els elements de l'array. Si fem servir el ```shift```, haurem de passar el segon element a la primera posició, el tercer a segona i així fins al final.
 
+## **Mètodes per transformar un array** 
+
+### **SORT**
+
+La crida a ```sort``` ordena l'array al seu lloc, canviant l'ordre dels elements.
+
+També retorna l'array ordenada, però el valor retornat normalment s'ignora, ja que es modifica el mateix array.
+
+```
+const cities = ['Barcelona', 'Londres', 'Berlín', 'Roma']
+
+cities.sort()
+
+console.log(cities) // ['Barcelona', 'Berlín', 'Londres', 'Roma']
+```
+
+### **REVERSE**
+
+El mètode ```reverse``` inverteix l'ordre dels elements a l'array.
+
+```
+let arr = [1, 2, 3, 4, 5];
+arr.reverse();
+
+console.log( arr ); // 5,4,3,2,1
+```
+
 ##  **Loops**
 
 Molts cops ens veiem amb la necessitat de recórrer un element per operar en cada un dels elements. Imagina que volguéssim fer un console.log() de cada element d'una array, i aquesta array té 100 elements. Hauríem d'escriure manualment cada línia, seria molt de temps i ocuparia moltes línies de codi. Doncs això es pot solucionar en poques línies mitjançant els **loops**.
@@ -247,4 +274,13 @@ console.log( matrix[1][1] ); // 5
 ### 📚 Recursos
 
 Més [curiositats sobre l'array](https://javascript.info/array#a-word-about-length)
+
+Més [mètodes del l'array](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+Importants: 
+
+- find
+- map
+- filter
+- forEach
 
