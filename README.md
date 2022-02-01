@@ -52,3 +52,11 @@ x operadors
 
 x M4 - ex1 - ex2 - ex3
 
+**1 · Feb**
+
+x switch
+
+x condicionals-bones-practiques
+
+x M4 - ex4 - ex5 - ex-extra3
+
