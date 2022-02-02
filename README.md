@@ -60,3 +60,9 @@ x condicionals-bones-practiques
 
 x M4 - ex4 - ex5 - ex-extra3
 
+**2 · Feb**
+
+x revisió exercicis i M4 - ex6
+
+x M4 - ex-extra1 - ex-extra2 - ex-extra3
+
