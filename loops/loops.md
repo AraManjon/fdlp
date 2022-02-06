@@ -319,3 +319,41 @@ La key -> score
 El valor -> 9 
 */
 ```
+
+### **Break **
+
+Normalment, un loop continua mentre la condició és ```true``` i s'aturarà el bucle quan la condició sigui ```false```. 
+
+Però podem forçar que s'acabi el bucle utilitzant la paraula ```break```.
+
+Exemple: 
+
+```
+let sum = 0;
+
+while (true) {
+
+  let value = Number(prompt("Enter a number", ''));
+
+  if (!value) break;
+
+  sum += value;
+
+}
+console.log( 'Sum: ' + sum );
+```
+
+### **Continue **
+
+Seria una versió més lleugera del ```break```, ja que no atura el loop però, si que fa que s'aturi la iteració en el bucle actual, obligant al bucle a iniciar-se.
+
+Exemple: 
+
+```
+for (let i = 0; i < 10; i++) {
+
+  if (i % 2 == 0) continue;
+
+  console.log(i); // 1, 3, 5, 7, 9
+}
+```

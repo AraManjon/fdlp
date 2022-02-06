@@ -4,13 +4,13 @@
 
 “Sabem que estem desenvolupant codi net quan cada funció fa exactament el que el seu nom indica”. – Ward Cunningham31
 
-Les funcions són les entitats organizatives més bàsiques d'un programa. 
+Les funcions són les entitats organitzatives més bàsiques d'un programa. 
 
 👍 Han de ser fàcils de llegir i transmetre clarament la intenció.
 
 ###  **Declaració d'una funció**
 
-```funcion```, nom de la funció, seguit de parèntesis ```()```, que poden tenir paràmetres o no. Entre claus tindrem les **instruccions**.
+```function```, nom de la funció, seguit de parèntesis ```()```, que poden tenir paràmetres o no. Entre claus tindrem les **instruccions**.
 
 ```
 function doSomething() {
@@ -55,7 +55,7 @@ Exemple:
 ```
 ###  **Retornar valors**
 
-Les funcions a Javascriot també poden retornar valors, de fet, és una de les utilitats més essencials de les funcions.
+Les funcions a Javascript també poden retornar valors, de fet, és una de les utilitats més essencials de les funcions.
 
 Per tant, les funcions poden executar accions i retornar valors com a sortida. Aquest retorn ho aconseguim amb la paraula reservada ```return``` i seguit del valor que volem que retorni.
 
@@ -84,3 +84,112 @@ function media(valor1,valor2){
     result = 0 // Aquesta línia mai s'executarà
 }
 ```
+###  **Expressió d'una funció**
+
+Amb una sintaxi similar a la declaració d'una funció, però es guarda en una variable.
+
+```
+const doSomething = function(){
+	return "Doing something";
+}
+doSomething()//"Doing something"
+```
+
+###  **Funcions autoexecutades IIFE**
+
+Són funcions que s'executen a l'hora de definir-se.
+
+```
+(function(){
+	console.log('Doing something')
+})()
+```
+
+###  **Funcions callback**
+
+És una funció que rep com a paràmetre una altra funció i l'executa.
+
+Exemple:
+```
+function printResutl (result) {
+	alert(result)
+}
+
+function sumNums(num1, num2, callback) { 
+   const result = num1 + num2
+   callback(result);
+}
+sumNums(1, 2, printResutl)
+```
+
+###  **Arrow functions**
+
+Amb l'aparició de l'ES6, es va introduir al llenguatge la sintaxi de funcions fletxa, amb la intenció de fer les funcions més llegibles.
+
+- Si el contingut del bloc és una sola línia ens podem estalviar les {}.
+- El return està implícit si no utilitzem {}.
+
+´´´
+const doSomething = () => "Doing something";
+
+console.log(doSomething) // Doing something
+´´´
+
+´´´
+const printNum = num => console.log(num);
+
+printNum(2) // 2
+´´´
+
+Funcionen molt bé per fer expressions lambada (funcions en línia), ja que redueixen el soroll sintàctic.
+
+Sense arrow function:
+´´´
+const numbers = [1,2,3]
+
+const numbersPlusTwo = numbers.map(function(n){ return n * 2 })
+
+console.log(numbersPlusTwo) // [2, 4, 6]
+´´´
+
+Amb arrow function:
+´´´
+const numbers = [1,2,3]
+
+const numbersPlusTwo = numbers.map(n => n * 2 )
+
+console.log(numbersPlusTwo) // [2, 4, 6]
+´´´
+
+###  **Paràmetres per defecte**
+
+Des de l'ES6, JavaScript permet que els paràmetres d'una funció es poden inicialitzar amb valors per defecte.
+
+```
+const greet = (text = 'world') => console.log('Hello ' + text);
+
+greet() //Hello world
+greet(undefined) //Hello world
+greet('crafter') //Hello crafter
+```
+
+###  **Paràmetre ```...rest```**
+
+L'operador de ```...```, és conegut com a paràmetre ```rest``` o operador ```spread``` depenen on es faci servir.
+
+- **rest**: unifica un conjunt d'elements en un array.
+- **spread**: expandeix els elements d'un array o un objecte.
+
+El paràmetre ```...rest``` unifica els arguments en la trucada d'una funció.
+
+```
+function process(x, y, ...args) {
+	console.log(args)
+}
+process(1,2,3,4,5); // [3,4,5]
+```
+
+
+
+
+

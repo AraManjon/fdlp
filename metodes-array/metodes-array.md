@@ -12,7 +12,7 @@ const car = {
     cilindrada: 120,
 }
 
-console.log(car.model) // Seat
+console.log(car.model) // Ibiza
 
 car.turbo = true
 
