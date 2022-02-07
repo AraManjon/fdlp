@@ -108,7 +108,7 @@ Exemple2:
 ```
 let alumnes = ['Pep', 'Paco', 'Aina', 'Lluisa', 'Joan'];
 
-for (let index = 0, alumnesLength = alumnes.length; index < alumnesLenght; index++){
+for (let index = 0, alumnesLength = alumnes.length; index < alumnesLength; index++){
   console.log(`hello, ${alumnes[index]}`)
 }
 ```
