@@ -4,7 +4,7 @@
 
 De vegades ens veiem amb la necessitat de crear un bucle perquè faci una acció en bucle tantes vegades com li indiquem. 
 
-Imagina que volguéssim fer un console.log('Hello Wolrd') 100 cops. Si haguéssim d'escriure línia a línia, seria molt de temps i moltes línies repetides. Per poder fer aquesta funcionalitat tenim els anomenats **loops**.
+Imagina que volguéssim fer un console.log('Hello World') 100 cops. Si haguéssim d'escriure línia a línia, seria molt de temps i moltes línies repetides. Per poder fer aquesta funcionalitat tenim els anomenats **loops**.
 
 ### **For**
 
