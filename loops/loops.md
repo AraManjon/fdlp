@@ -167,7 +167,7 @@ Ordre execució:
 10) counter < 10 //false
 
 ```
-leet alumnes = ['Pep', 'Paco', 'Aina', 'Lluisa', 'Joan'];
+let alumnes = ['Pep', 'Paco', 'Aina', 'Lluisa', 'Joan'];
 let content = "Llistat d'alumnes:\n";
 
 let counter = 0
@@ -224,7 +224,6 @@ Ordre execució:
 9) counter++ // a incrementat a 10
 10) counter < 10 //false
 
-```
 
 Exemple:
 
@@ -235,7 +234,7 @@ do {
     console.log('hello world!')
     counter++
 } while (counter < 10)
-```
+
 // 'hello world'
 ```
 
