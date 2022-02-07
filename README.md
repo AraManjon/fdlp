@@ -43,6 +43,8 @@ x funcions
 x M3 - ex1, ex2, ex3
 x M6 - ex1 
 
+--------
+
 **31 · Gen**
 
 x operadors
@@ -52,6 +54,8 @@ x operadors
 
 x M4 - ex1 - ex2 - ex3
 
+--------
+
 **1 · Feb**
 
 x switch
@@ -60,9 +64,42 @@ x condicionals-bones-practiques
 
 x M4 - ex4 - ex5 - ex-extra3
 
+--------
+
 **2 · Feb**
 
 x revisió exercicis i M4 - ex6
 
 x M4 - ex-extra1 - ex-extra2 - ex-extra3
+
+--------
+
+**3 · Feb**
+
+x revisió exercicis
+
+x metodes array
+
+--------
+
+**CAP DE SETMANA**
+
+x M4 - ex-extra1 - ex-extra2 - ex-extra3
+x M6 - ex2 -  ex-extra1
+
+--------
+
+**7 · Feb**
+
+x loops
+
+x M5 - ex1 - ex2 - ex3 - ex4 - ex5
+
+--------
+
+**8 · Feb**
+
+· revisió exercicis
+
+· funcions
 

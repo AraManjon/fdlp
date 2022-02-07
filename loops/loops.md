@@ -97,9 +97,9 @@ Exemple 1:
 ```
 const alumnes = ['Pep', 'Paco', 'Aina', 'Lluisa', 'Joan'];
 
-const alumnesLenght = alumnes.length
+const alumnesLength = alumnes.length
 
-for (let index = 0; index < alumnesLenght; index++){
+for (let index = 0; index < alumnesLength; index++){
   console.log(`hello, ${alumnes[index]}`)
 }
 ```
@@ -108,7 +108,7 @@ Exemple2:
 ```
 let alumnes = ['Pep', 'Paco', 'Aina', 'Lluisa', 'Joan'];
 
-for (let index = 0, alumnesLenght = alumnes.length; index < alumnesLenght; index++){
+for (let index = 0, alumnesLength = alumnes.length; index < alumnesLenght; index++){
   console.log(`hello, ${alumnes[index]}`)
 }
 ```
@@ -122,9 +122,9 @@ Exemple:
 let alumnes = ['Pep', 'Paco', 'Aina', 'Lluisa', 'Joan'];
 
 let index = 0
-let alumnesLenght = alumnes.length
+let alumnesLength = alumnes.length
 
-for (; index < alumnesLenght;){
+for (; index < alumnesLength;){
   console.log(`hello, ${alumnes[index]}`)
   index++
 }
@@ -319,7 +319,7 @@ El valor -> 9
 */
 ```
 
-### **Break **
+### **Break**
 
 Normalment, un loop continua mentre la condició és ```true``` i s'aturarà el bucle quan la condició sigui ```false```. 
 
@@ -342,7 +342,7 @@ while (true) {
 console.log( 'Sum: ' + sum );
 ```
 
-### **Continue **
+### **Continue**
 
 Seria una versió més lleugera del ```break```, ja que no atura el loop però, si que fa que s'aturi la iteració en el bucle actual, obligant al bucle a iniciar-se.
 
