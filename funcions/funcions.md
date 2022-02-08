@@ -173,7 +173,7 @@ greet(undefined) //Hello world
 greet('crafter') //Hello crafter
 ```
 
-###  **Paràmetre ```...rest```**
+###  **Paràmetre ...rest**
 
 L'operador de ```...```, és conegut com a paràmetre ```rest``` o operador ```spread``` depenen on es faci servir.
 
