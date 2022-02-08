@@ -129,37 +129,37 @@ Amb l'aparició de l'ES6, es va introduir al llenguatge la sintaxi de funcions f
 - Si el contingut del bloc és una sola línia ens podem estalviar les {}.
 - El return està implícit si no utilitzem {}.
 
-´´´
+```
 const doSomething = () => "Doing something";
 
 console.log(doSomething) // Doing something
-´´´
+```
 
-´´´
+```
 const printNum = num => console.log(num);
 
 printNum(2) // 2
-´´´
+```
 
 Funcionen molt bé per fer expressions lambada (funcions en línia), ja que redueixen el soroll sintàctic.
 
 Sense arrow function:
-´´´
+```
 const numbers = [1,2,3]
 
 const numbersPlusTwo = numbers.map(function(n){ return n * 2 })
 
 console.log(numbersPlusTwo) // [2, 4, 6]
-´´´
+```
 
 Amb arrow function:
-´´´
+```
 const numbers = [1,2,3]
 
 const numbersPlusTwo = numbers.map(n => n * 2 )
 
 console.log(numbersPlusTwo) // [2, 4, 6]
-´´´
+```
 
 ###  **Paràmetres per defecte**
 
