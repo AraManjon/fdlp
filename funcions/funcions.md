@@ -31,6 +31,7 @@ sayHello('hi!')
 ###  **Paràmetres i arguments**
 
 **Arguments** : els valors amb els quals cridem a la funció.
+
 **Paràmetres** : les variables nomenades que reben aquests valors dins de la funció.
 
 👍 Limita el nombre d'arguments que rep una funció. En general haurien de ser 3 com a màxim. Si hi ha més, potser és bona idea crear un objecte a rebre com a paràmetres.
