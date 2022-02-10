@@ -102,3 +102,15 @@ x M5 - ex1 - ex2 - ex3 - ex4 - ex5
 · revisió exercicis
 
 · funcions
+
+x M5 - ex-extra1 - ex-extra2 M6 - ex2  - ex-extra1
+
+--------
+
+**9 · Feb**
+
+· revisió exercicis
+
+· funcions
+
+x Començar M7.1
