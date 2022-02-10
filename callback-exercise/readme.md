@@ -31,24 +31,21 @@ Sum by three
 As user, when I pass an array with numbers and call to program, we recibe and a new array with all numbers sumed by three.
 
 Case 6:
-
 Multiply by two
+
 As user, when I pass an array with numbers and call to program, we recibe and a new array with all numbers multiplied by two.
 
 Case 7:
-
 Rest by two
 
 As user, when I pass an array with numbers and call to program, we recibe and a new array with all numbers rested by two.
 
 Case 8:
-
 Divide by two
 
 As user, when I pass an array with numbers and call to program, we recibe and a new array with all numbers divided by two.
 
 Case 9:
-
 Convert to upper case
 
 As user, when I pass an array with strings in lower case and call to program, we recibe and a new array with all words to upper case.
