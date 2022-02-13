@@ -49,3 +49,15 @@ Case 9:
 Convert to upper case
 
 As user, when I pass an array with strings in lower case and call to program, we recibe and a new array with all words to upper case.
+
+
+AXES
+
+1
+- How create array
+- How interact user
+
+2
+- Apply something for each element
+
+
