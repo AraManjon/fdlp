@@ -11,20 +11,23 @@ To do this, the computer must generate a random board with 15 random numbers in 
 
 BOARD
 
+```
 | 01 |    | 23 |    |    | 51 |    | 74 | 80 |
 
 |    | 13 |    | 32 | 46 |    | 61 |    | 88 |
 
 | 07 |    | 28 | 39 | 49 |    |    | 77 |    |
+```
 
 When the game shows a number that is in board, this number should be marked.
 
+```
 | 01 |    | 23 |    |    | ** |    | 74 | 80 |
 
 |    | 13 |    | 32 | 46 |    | 61 |    | 88 |
 
 | 07 |    | 28 | 39 | 49 |    |    | 77 |    |
-
+```
 
 LINE
 
