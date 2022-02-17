@@ -45,7 +45,7 @@ FINISH
 
 The game stops when user select go out of game or when reach BINGO.
 
-🔍 CONSTRAINS:
+### 🔍 CONSTRAINS:
 
 🚫 The numbers in a board can not be repeated.
 
