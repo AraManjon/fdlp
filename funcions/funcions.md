@@ -123,6 +123,26 @@ function sumNums(num1, num2, callback) {
 sumNums(1, 2, printResutl)
 ```
 
+###  **Funcions anònimes**
+
+Un bon nom en una funció és fonamental per una bona llegibilitat. Quan escollim un mal nom, succeeix tot el contrari, per això de vegades la millor forma és no haver d'escollir noms.
+
+Exemple:
+```
+function main() { 
+
+	const stuffList = [
+	{ isEnabled: true, name: 'justin' }, 
+	{ isEnabled: false, name: 'lauren' }, 
+	{ isEnabled: false, name: 'max' },
+	];
+
+	const filteredStuff = stuffList.filter(stuff => !stuff.isEnabled);
+	console.log(filteredStuff); 
+}
+main();
+```
+
 ###  **Arrow functions**
 
 Amb l'aparició de l'ES6, es va introduir al llenguatge la sintaxi de funcions fletxa, amb la intenció de fer les funcions més llegibles.
@@ -133,7 +153,7 @@ Amb l'aparició de l'ES6, es va introduir al llenguatge la sintaxi de funcions f
 ```
 const doSomething = () => "Doing something";
 
-console.log(doSomething) // Doing something
+console.log(doSomething()) // Doing something
 ```
 
 ```
@@ -161,6 +181,10 @@ const numbersPlusTwo = numbers.map(n => n * 2 )
 
 console.log(numbersPlusTwo) // [2, 4, 6]
 ```
+
+🚨
+> Operacions lambada, són aquelles funcions que s'utilitzen com a dada. Si una functióo s'utilitza com argument o com a valor de retorn, és una lambada.
+
 
 ###  **Paràmetres per defecte**
 
@@ -190,6 +214,11 @@ function process(x, y, ...args) {
 process(1,2,3,4,5); // [3,4,5]
 ```
 
+### Debugger
+
+Quan el depurador és invocat, l'execució s'atura a la sentència debugger. És com un ```breakpoint``` a l'script.
+
+Només hem d'escriure la sentència ```debugger``` i activar un depurador.
 
 
 

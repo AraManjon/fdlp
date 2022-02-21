@@ -260,3 +260,104 @@ Notes:
 > 🚨 Si el valor que conté aquesta estructura no és primitu, continuarà mantenint aquesta referencia, així que tindrem que trencar també la referencia d'aquest valor.
 
 > Nous [tipus de dades](https://dev.to/briansanteliz/nuevos-tipos-de-datos-en-javascript-records-tuples-2kie) que s'introduiran aviat en Javascript per conseguir evitar aquesta mutabilitat en objectes i arrays.
+
+
+### **Destructuring**
+
+Permet empaquetar valors d'objectes i arrays en variables.
+
+Exemple en arrays: 
+
+Sense destructuring:
+```
+const colors = ['red', 'blue', 'yellow']
+
+const redColor = colors[0]
+const blueColor = colors[1]
+const yellowColor = colors[2]
+
+console.log(redColor) // 'red'
+console.log(blueColor) // 'blue'
+console.log(yellowColor) // 'yellow'
+```
+
+Amb destructuring:
+```
+const colors = ['red', 'blue', 'yellow']
+
+const [ redColor, blueColor, yellowColor ] = colors
+
+console.log(redColor) // 'red'
+console.log(blueColor) // 'blue'
+console.log(yellowColor) // 'yellow'
+```
+
+Exemple en objectes: 
+
+Sense destructuring:
+```
+const car = {
+    model: 'Ibiza',
+    brand: 'Seat',
+    cilindrada: 120,
+}
+
+const model = car.model
+const brand = car.brand
+const cilindrada = car.cilindrada
+
+console.log(model) // 'Ibiza'
+console.log(brand) // 'Seat'
+console.log(cilindrada) // '120'
+```
+
+Amb destructuring:
+```
+const car = {
+    model: 'Ibiza',
+    brand: 'Seat',
+    cilindrada: 120,
+}
+
+const { model, brand, cilindrada } = car
+
+console.log(model) // 'Ibiza'
+console.log(brand) // 'Seat'
+console.log(cilindrada) // '120'
+```
+
+Notes:
+> 🚨 Molt útil per ignorar alguns valors retornats per una funció.
+
+Exemple:
+
+```
+function calculator (num1, num2) {
+    const sum = num1 + num2
+    const rest = num1 - num2
+    const mult = num1 * num2
+    const div = num1 / num2
+
+    const result = {
+        sum: sum,
+        rest,
+        mult,
+        div
+    }
+
+    return result;
+}
+
+function showSum () {
+    // const firstNum = Number(document.getElementById('num1')) 
+    // const secondNum = Number(document.getElementById('num2'))
+
+    const firstNum = 2
+    const secondNum = 2
+
+    const { sum } = calculator(firstNum, secondNum)
+    alert(sum)
+}
+
+```
+
