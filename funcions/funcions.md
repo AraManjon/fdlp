@@ -162,7 +162,7 @@ const printNum = num => console.log(num);
 printNum(2) // 2
 ```
 
-Funcionen molt bé per fer expressions lambada (funcions en línia), ja que redueixen el soroll sintàctic.
+Funcionen molt bé per fer expressions lambda (funcions en línia), ja que redueixen el soroll sintàctic.
 
 Sense arrow function:
 ```
@@ -183,7 +183,7 @@ console.log(numbersPlusTwo) // [2, 4, 6]
 ```
 
 🚨
-> Operacions lambada, són aquelles funcions que s'utilitzen com a dada. Si una functióo s'utilitza com argument o com a valor de retorn, és una lambada.
+> Operacions lambda, són aquelles funcions que s'utilitzen com a dada. Si una functióo s'utilitza com argument o com a valor de retorn, és una lambda.
 
 
 ###  **Paràmetres per defecte**
