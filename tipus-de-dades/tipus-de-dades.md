@@ -222,6 +222,29 @@ console.log(persona)
 // Output:  { nom: 'Pepito', cognom: 'Grillo', edat: 45, car: true }
 ```
 
+Exemple:
+```
+let number = 0
+function addOne (variable) {
+    variable++ // això és igual a variable = variable + 1
+}
+addOne(number)
+addOne(number)
+addOne(number)
+console.log(Per què number val ${number}?) // Per què number val 0?
+```
+
+```
+let numberInArray = [0]
+function addOne (variable) {
+    variable[0]++ // això és igual a variable[0] = variable[0] + 1
+}
+addOne(numberInArray)
+addOne(numberInArray)
+addOne(numberInArray)
+console.log(Per què numberInArray val ${numberInArray}?) // Per què numberInArray val 3?
+```
+
 Notes:
 > 🚨 Hem d'anar amb compte i tenir controlat quan volem modificar una dada de tipus objecte, ja que és posible que no volguem modificar la primera instància original, per això, és recomenable fer còpies de les dades tipus objecte quan volem treballar amb elles.
 
