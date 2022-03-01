@@ -99,9 +99,9 @@ x M5 - ex1 - ex2 - ex3 - ex4 - ex5
 
 **8 · Feb**
 
-· revisió exercicis
+x revisió exercicis
 
-· funcions
+x funcions
 
 x M5 - ex-extra1 - ex-extra2 M6 - ex2  - ex-extra1
 
@@ -109,11 +109,47 @@ x M5 - ex-extra1 - ex-extra2 M6 - ex2  - ex-extra1
 
 **9 · Feb**
 
-· revisió exercicis
+x revisió exercicis
 
-· funcions
+x funcions
 
 x Començar M7.1
+
+--------
+
+**10 · Feb**
+
+x revisió exercicis
+
+x callback-exercise
+
+x Començar M7.1 - Bingo-exercise
+
+--------
+
+**14 · Feb - 23 · Feb**
+
+x revisió exercicis M7.1 - M7.2 - M7.3
+
+--------
+
+**24 · Feb**
+
+x oop
+
+x register-login-exercisi
+
+x M8.1 - M8.2 - M8-extra-1
+
+--------
+
+**28 · Feb**
+
+x corregir exercisis
+
+x callback-exercise - movies
+
+x moduls-javascript
 
 --------
 
