@@ -86,6 +86,8 @@ Si es vol accedir a qualsevol element d'una pàgina HTML, sempre hem d'accedir a
 
 La funció ```document.getElementById(id)```ens permet rebre l'element html que conté aquest **id**.
 
+#### **Introduir text: innerHTML**
+
 Un cop tenim aquest element, el podem modificar, per exemple afegint a la propietat ```innerHTML``` el valor que vulguem.
 
 ```
@@ -99,6 +101,48 @@ Un cop tenim aquest element, el podem modificar, per exemple afegint a la propie
     <body>
         <h1>Exemple JavaScript</h1>
         <p id="demo"></p>
+    </body>
+</html>
+```
+
+#### **Recuperar valor: input**
+
+També podem recuperar el valor d'un element html. Perquè l'usuari pugui introduir un valor, tenim el tag ```<input>``` que mostra a l'usuari una capça on podrà introduir un valor. Aquest el podem recuperar accedint a la propietat ```value``` de l'element html recuperat per ```document.getElementById(id)```.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            const valueUser = document.getElementById("name-input").value
+            console.log(valueUser) //el valor dins de l'input
+        </script>
+    </head>
+    <body>
+        <h1>Exemple JavaScript</h1>
+        <input id="name-input">
+    </body>
+</html>
+```
+#### **Controlar accions de l'usuari amb button**
+Quan treballem amb la interacció de l'usuari mitjançant en DOM, molts cops em de controlar **quan** volem recuperar elements html mitjançant l'id. Per això, un recurs que tenim és afegir un ```<button>``` amb una acció ```onclick``` que executarà una funció. Dins d'aquesta funció podem afegir l'acció que volem que s'executi.
+
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+        function saveName () {
+            const valueUser = document.getElementById("name-input").value
+            console.log(valueUser) //el valor dins de l'input
+        }
+        </script>
+    </head>
+    <body>
+        <h1>Exemple JavaScript</h1>
+        <input id="name-input">
+        <button onclick="saveName()">
     </body>
 </html>
 ```
