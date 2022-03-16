@@ -4,7 +4,7 @@
 
 **- Ordenat en programació.**
 
-**- Tot és possible d'aconseguirr**. Concepte baby steps. 
+**- Tot és possible d'aconseguir**. Concepte baby steps. 
 
 **- Tothom pot ser programador/a**
 
@@ -47,16 +47,16 @@ Notes:
 
 Exemple:
 ```
-1 let variable = 5; /* la variable és de tipus number */
-2 variable = '5'; /* la variable és de tipus string */
+let variable = 5; /* la variable és de tipus number */
+variable = '5'; /* la variable és de tipus string */
 ```
 
 **3. JavaScript és un llenguatge de tipat dèbil o no tipat**. Vol dir que és un llenguatge amb el qual la declaració de variables no és requereix especificar quin tipus de dada tindrà.
 
 Exemple:
 ```
-1 let variableExempleString = 'I am a string'; /* la variable és de tipus string */
-2 let variablexempleBoolean = true; /* la variable és de tipus boolean */
+let variableExempleString = 'I am a string'; /* la variable és de tipus string */
+let variablexempleBoolean = true; /* la variable és de tipus boolean */
 ```
 
 **4. JavaScript és un llenguatge d'alt nivell**. És a dir, la seva sintaxi és molt similar a la del llenguatge de les persones.
@@ -126,7 +126,7 @@ Notes:
 
 [Katas Javascript](https://www.codewars.com/?language=javascript)
 
-[Mecanografia](https://www.mecanografia-online.com/)
+[Mecanografia](https://www.typingclub.com/)
 
 Llistes [Todo](https://todoist.com/app/today)
 

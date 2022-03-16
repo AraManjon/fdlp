@@ -14,11 +14,10 @@ Notes:
 
 ### **Noms pronunciables i expressius**
 ```
-1 //bad
-2 const yyyymmdstr = moment().format('YYYY/MM/DD');
-3
-4 //better
-5 const currentDate = moment().format('YYYY/MM/DD');
+//bad
+const yyyymmdstr = moment().format('YYYY/MM/DD');
+//better
+const currentDate = moment().format('YYYY/MM/DD');
 ```
 
 Notes:
@@ -33,42 +32,42 @@ Notes:
 Llistes d'elements d'un mateix tipus.
 
 ```
-1 //bad
-2 const fruit = ['manzana','platano','fresa'];
-3 //regular
-4 const fruitList = ['manzana','platano','fresa'];
-5 //good
-6 const fruits = ['manzana','platano','fresa'];
-7 //better
-8 const fruitNames = ['manzana','platano','fresa'];
+//bad
+const fruit = ['manzana','platano','fresa'];
+//regular
+const fruitList = ['manzana','platano','fresa'];
+//good
+const fruits = ['manzana','platano','fresa'];
+//better
+const fruitNames = ['manzana','platano','fresa'];
 ```
 
 #### Booleans
 
 Només pot tenir dos valors.
 ```
-1 //bad
-2 const open = true;
-3 const write = true;
-4 const fruit = true;
-5
-6 //good
-7 const isOpen = true;
-8 const canWrite = true;
-9 const hasFruit = true;
+//bad
+let open = true;
+let write = true;
+let fruit = true;
+
+//good
+let isOpen = true;
+let canWrite = true;
+let hasFruit = true;
 ```
 #### Número
 
 Escollir paraules que descriguin número, com min, max o total:
 
 ```
-1 //bad
-2 const fruits = 3;
-3
-4 //better
-5 const maxFruits = 5;
-6 const minFruits = 1;
-7 const totalFruits = 3;
+//bad
+const fruits = 3;
+
+//better
+const maxFruits = 5;
+const minFruits = 1;
+const totalFruits = 3;
 ```
 
 #### Funcions
@@ -76,15 +75,15 @@ Escollir paraules que descriguin número, com min, max o total:
 El nom de la funció ha d'expressar el que fa, però també cal abstreure's de la implementació de la funció.
 
 ```
-1 //bad
-2 createUserIfNotExists()
-3 updateUserIfNotEmpty()
-4 sendEmailIfFieldsValid()
-5
-6 //better
-7 createUser(...)
-8 updateUser(...)
-9 sendEmail()
+//bad
+createUserIfNotExists()
+updateUserIfNotEmpty()
+sendEmailIfFieldsValid()
+
+//better
+createUser(...)
+updateUser(...)
+sendEmail()
 ```
 
 Notes: 
