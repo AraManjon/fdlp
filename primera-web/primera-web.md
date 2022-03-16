@@ -54,10 +54,3 @@ Importem arxius .js:
 <script src="script.js"></scrript>
 ```
 I dins l'arxiu scrpit.js és on afegirem el codi javascript ```console.log('hello world')```
-
-Notes: 
-> Instal·lar [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) com a extensió en el VSCode
-
-> Instal·lar [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) com a extensió en el VSCode
-
-> Instal·lar [Prettier Now](https://marketplace.visualstudio.com/items?itemName=remimarsal.prettier-now) com a extensió en el VSCode

@@ -110,6 +110,13 @@ Vídeo on veure una explicació de l'origen de la [Terminal](https://www.youtube
 ## **VisualStudio Code**
 Instal·lar un editor de codi font [Visual Studio Code](https://code.visualstudio.com/download)
 
+Notes: 
+> Instal·lar [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) com a extensió en el VSCode
+
+> Instal·lar [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) com a extensió en el VSCode
+
+> Instal·lar [Prettier Now](https://marketplace.visualstudio.com/items?itemName=remimarsal.prettier-now) com a extensió en el VSCode
+
 ## **Markdown**
 
 És un convertor de text pla a HTML.
