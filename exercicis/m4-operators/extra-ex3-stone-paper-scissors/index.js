@@ -23,7 +23,7 @@ function retrieveUserOption () {
 }
 
 function retrievePCOption () {
-    const number = Math.floor(Math.random () * (4 - 1)) + 1;
+    const number = Math.floor(Math.random () * (4 - 1)) + 1
     return gameOptions[number]
 }
 
@@ -54,7 +54,7 @@ function startGame () {
     if ( !userWantPlay ) sayGoodBye()
 
     if ( userWantPlay ) {
-        const resultGame = play(pcOption.value, userOption.value); 
+        const resultGame = play(pcOption.value, userOption.value)
         showResult(pcOption, userOption, resultGame)
     }
 }

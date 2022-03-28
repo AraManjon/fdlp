@@ -4,11 +4,11 @@
 
 ##  **Evitar l'ús del switch**
 
-Normalment, utilitzem la  sentència ```switch``` quan operar amb diferents condicions i és una manera d'evitar l'ús de molts ```else-if```.
+Normalment, utilitzem la sentència ```switch``` per operar amb diferents condicions i és una manera d'evitar l'ús de molts ```else-if```.
 
 El problema de l'ús del ```switch```, és que crea un codi difícil de llegir, d'una forma complicada i amb una sintaxis poc intuïtiva.
 
-Si volem afegir tres condicions noves, hauríem d'escriure massa codi burocràtic, un nou `case` amb el codi a operar i un `break`,i això per cada nou cas, al final es faria tediós i acabaríem copiant i enganxant codi...
+Si volem afegir tres condicions noves, hauríem d'escriure massa codi burocràtic, un nou `case` amb el codi a operar i un `break`, i això per cada nou cas, al final es faria tediós i acabaríem copiant i enganxant codi...
 
 Exemple:
 
@@ -59,7 +59,7 @@ console.log(getPokemon('unknown')); // Result: Mew
 
 ##  **Fer condicionals descriptius**
 
-És molt fàcil acabar escrivint una condició que sigui difícil d'entendre... Això ens portaria a haver escriure comentaris explicant que fa exactament o invertir temps en esbrinar que és el que s'està comparant exactament.
+És molt fàcil acabar escrivint una condició que sigui difícil d'entendre... Això ens portaria a haver d'escriure comentaris explicant que fa exactament o invertir temps en esbrinar que és el que s'està comparant exactament.
 
 Exemple:
 
@@ -145,7 +145,7 @@ function getPayAmount() {
 
 ##  **Evitar l'ús del ```else```**
 
-L'else, ens deixa la porta oberta a què tot el que no compleixi la condició del ```if```.
+L'else, ens deixa la porta oberta a tot el que no compleixi la condició del ```if```.
 
 Acaba queden poc clar i explicatiu quan i perquè volem que s'executi el codi de la via alternativa que ens ofereix l'```else```.
 
