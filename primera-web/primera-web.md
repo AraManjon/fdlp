@@ -1,4 +1,4 @@
-# FONAMENTS DE LA PROGRAMACIÓ AMB JAVASCRIPT
+# PRIMERA WEB
 
 ## **La nostra primera web**
 
@@ -16,11 +16,13 @@ Commands:
 
 > **mkdir** *nom-carpeta* (Apple & Windows: crear una carpeta)
 
-2- Creem un arxiu .html
+2- Creem un arxiu index.html i un arxiu index.js
 
 > **touch** *nom-arxiu* (Apple: per crear un arxiu)
 
 > **type nul >** *nom-arxiu* (Windows: per crear un arxiu)
+
+🚨 Podem escriure ```ls``` (en Mac) o ```dir``` (en Windows) per poder veure el contigut de la carpetaa, ara ens sortiran els dos arxius creats, index.html i index.js
 
 Notes:
 
@@ -39,9 +41,16 @@ Notes:
 
 ### Carregar Javascript a l'Html
 
-Dins del ```<head>``` afegim ```<script></script>```
+Dins del ```<head> </head>``` afegim ```<script></script>```
 
 > De vegades també el podem trobar dins del body però just abans de tancar el tag.
+
+Importem arxius .js:
+```
+<script src="index.js"></scrript>
+```
+
+I dins l'arxiu index.js és on afegirem el codi javascript ```console.log('hello world')```
 
 En linea: 
 ```
@@ -49,8 +58,3 @@ En linea:
     console.log('hello world')
 </scrript>
 ```
-Importem arxius .js:
-```
-<script src="script.js"></scrript>
-```
-I dins l'arxiu scrpit.js és on afegirem el codi javascript ```console.log('hello world')```
