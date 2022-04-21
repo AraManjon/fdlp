@@ -6,6 +6,11 @@ Write a program that allows you to play BINGO.
 
 To do this, the computer must generate a random board with 15 random numbers in three rows of 5, with numbers between 1 and 90 (both included). The program should show a random number between 1 and 90. If this number is in the board, the number should be indicated as marked in board, and also when user accomplishes a LINE or BINGO. The game finishes when the user go out of program or when get BINGO.
 
+### First level
+Create a fixed board to play bingo game. Find with random numbers if user done line and bingo.
+
+### Second level
+Make a program to crate a random board in each round.
 
 ### 🎮 LET'S PLAY BINGO
 
