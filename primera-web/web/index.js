@@ -1,3 +1,6 @@
-const greeting = 'hello'
+let x = 5
+x = 2
 
-console.log(greeting)
+const y = 'hola'
+
+console.log('hola mundo')

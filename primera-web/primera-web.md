@@ -16,6 +16,8 @@ Commands:
 
 > **mkdir** *nom-carpeta* (Apple & Windows: crear una carpeta)
 
+> **cls** netejar terminal (Apple **clear**)
+
 2- Creem un arxiu index.html i un arxiu index.js
 
 > **touch** *nom-arxiu* (Apple: per crear un arxiu)

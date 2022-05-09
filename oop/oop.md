@@ -75,7 +75,7 @@ console.log(message) //"Welcome"
 ```
 
 Notes:
-> 🚨 Les funcions que retornen una altra funció es coneixen com a funcions d'ordre superior (High Orrder Functions).
+> 🚨 Les funcions que retornen una altra funció es coneixen com a funcions d'ordre superior (High Order Functions).
 
 ### **OOP**
 
