@@ -1,22 +1,25 @@
-// Funciones navegador
+console.log('hola mundo')
 
-console.log('imprimir por consola')
+alert('Hola que tal')
 
-alert('mostrar por alert')
+const nombre = prompt('Introduce tu nombre')
 
-const username = prompt('Introduce tu nombre')
+console.log(nombre)
 
-console.log(username)
+const isOver18 = confirm('Eres mayor de edad?')
 
-const over18 = confirm('Eres mayor de 18?')
-
-console.log(over18)
-
-
-// Interactuar DOM
 
 function showName () {
-    const inputValue = document.getElementById('input-name').value
-    const myText = document.getElementById('my-text')
-    myText.innerHTML = inputValue
+    const inputElement = document.getElementById("name")
+
+    console.log(inputElement)
+
+    const nameValue = inputElement.value
+    
+    console.log(nameValue)
+
+    document.getElementById('greeting').innerHTML = `Hello ${nameValue}`
 }
+
+
+
