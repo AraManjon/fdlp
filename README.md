@@ -53,6 +53,7 @@ x [switch](./switch/switch.md)
 x [bones pràctiques amb condicionals](./condicionals-bones-practiques/condicionals-bones-practiques.md)
 
 CAP DE SETMANA -> M4 - ex1 - ex2 - ex3
+
 OPCIONAL -> M4 - ex4 - ex5 - ex6 - ex-extra1 - ex-extra2 - ex-extra3
 
 --------
