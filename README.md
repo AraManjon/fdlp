@@ -21,9 +21,12 @@ x [tipus-de-dades](./tipus-de-dades/tipus-de-dades.md). Mutables i no mutables
 x [interaccio](./interaccio/interaccio.md). Alert, prompt, confirm i getElementById
 
 x operadors
-    - [aritmetics](./operadors/aritmetics.md). + | - | * | /
-    - [comparacio](./operadors/comparacio.md). > | < | === | !==
-    - [logics](./operadors/logics.md). && | || | !
+
+- [aritmetics](./operadors/aritmetics.md). + | - | * | /
+
+- [comparacio](./operadors/comparacio.md). > | < | === | !==
+
+- [logics](./operadors/logics.md). && | || | !
 
 x [template literals](./template-literals/template-literals.md)
 
