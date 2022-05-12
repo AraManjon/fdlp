@@ -9,9 +9,6 @@ To do this, the computer must generate a random board with 15 random numbers in 
 ### First level
 Create a fixed board to play bingo game. Find with random numbers if user done line and bingo.
 
-### Second level
-Make a program to crate a random board in each round.
-
 ### 🎮 LET'S PLAY BINGO
 
 BOARD
