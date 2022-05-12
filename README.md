@@ -46,14 +46,15 @@ x M3 - ex3 - ex-extra-1 - ex-extra-2
 
 x correció exercisis
 
-x [identificadors](./identificadors/identificadors.md)
+x [identificadors](./identificadors/identificadors.md). Naming
 
 x operadors
-    - [condicionals](./operadors/condicionals.md)
+
+- [condicionals](./operadors/condicionals.md). If, else if, else
 
 x [switch](./switch/switch.md)
 
-x [bones pràctiques amb condicionals](./condicionals-bones-practiques/condicionals-bones-practiques.md)
+x [bones pràctiques amb condicionals](./condicionals-bones-practiques/condicionals-bones-practiques.md). Object literals
 
 CAP DE SETMANA -> M4 - ex1 - ex2 - ex3
 
