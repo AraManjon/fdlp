@@ -61,3 +61,35 @@ CAP DE SETMANA -> M4 - ex1 - ex2 - ex3
 OPCIONAL -> M4 - ex4 - ex5 - ex6 - ex-extra1 - ex-extra2 - ex-extra3
 
 --------
+
+**16 · May**
+
+x Correció exercisis
+
+--------
+
+**17 · May**
+
+x Correció exercisis
+
+--------
+
+**18 · May**
+
+x [loops](./loops/loops.md)
+
+x M5 - ex1 - ex2 - ex3 - ex4
+
+--------
+
+**19 · May**
+
+x Correció exercisis
+
+x [loops](./loops/loops.md)
+
+x [mètodes array](./metodes-array/metodes-array.md)
+
+CAP DE SETMANA -> M5 - ex1 - ex2 - ex3 - ex4 - ex5
+
+OPCIONAL -> M5 - ex-extra1 - ex-extra2, M4 - ex-extra1 - ex-extra2 - ex-extra3
