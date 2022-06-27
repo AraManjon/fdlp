@@ -270,5 +270,10 @@ persona.toString() // 'Pepito'
 persona.name //undefined
 ```
 
+### Encapsulament
+
+L'encapsulament fa servir les tècniques de l'ocultació per aïllar l'objecte de l'exterior. Aquest aïllament fa que les dades (propietats) de l'objecte només es puguin gestionar amb les operacions (mètodes) definides en aquest objecte. Es deia que JavaScript no podia amagar i/o encapsular dades perquè els objectes no podien tenir variables i mètodes privats com passa amb Java i altres llenguatges.
+
+
 ### 📚 Recursos
 [Programació funcional](https://softwarecrafters.io/javascript/introduccion-programacion-funcional-javascript)

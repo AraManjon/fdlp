@@ -2,21 +2,21 @@
 
 [PRESENTACIÓ](./presentacio/presentacio.md)
 
-**09 · May**
+**27 · Jun**
 
 x [introdcuccio](./introduccio/introduccio.md). Què és javascript?
 
 x [variables](./variables/variables.md). let / const / var
 
-x [primera-web](./primera-web/primera-web.md). Terminal i com crear index.html i index.js
-
-x [tipus-de-dades](./tipus-de-dades/tipus-de-dades.md). Mutables i no mutables
+x [tipus-de-dades](./tipus-de-dades/tipus-de-dades.md). No mutables
 
 --------
 
-**10 · May**
+**28 · Jun**
 
-x [tipus-de-dades](./tipus-de-dades/tipus-de-dades.md). Mutables i no mutables
+x [tipus-de-dades](./tipus-de-dades/tipus-de-dades.md). Mutables
+
+x [primera-web](./primera-web/primera-web.md). Terminal i com crear index.html i index.js
 
 x [interaccio](./interaccio/interaccio.md). Alert, prompt, confirm i getElementById
 
@@ -34,62 +34,10 @@ x M3 - ex1 - ex2
 
 --------
 
-**11 · May**
+**29 · May**
 
 x Correció exercisis
 
 x M3 - ex3 - ex-extra-1 - ex-extra-2
 
 --------
-
-**12 · May**
-
-x correció exercisis
-
-x [identificadors](./identificadors/identificadors.md). Naming
-
-x operadors
-
-- [condicionals](./operadors/condicionals.md). If, else if, else
-
-x [switch](./switch/switch.md)
-
-x [bones pràctiques amb condicionals](./condicionals-bones-practiques/condicionals-bones-practiques.md). Object literals
-
-CAP DE SETMANA -> M4 - ex1 - ex2 - ex3
-
-OPCIONAL -> M4 - ex4 - ex5 - ex6 - ex-extra1 - ex-extra2 - ex-extra3
-
---------
-
-**16 · May**
-
-x Correció exercisis
-
---------
-
-**17 · May**
-
-x Correció exercisis
-
---------
-
-**18 · May**
-
-x [loops](./loops/loops.md)
-
-x M5 - ex1 - ex2 - ex3 - ex4
-
---------
-
-**19 · May**
-
-x Correció exercisis
-
-x [loops](./loops/loops.md)
-
-x [mètodes array](./metodes-array/metodes-array.md)
-
-CAP DE SETMANA -> M5 - ex1 - ex2 - ex3 - ex4 - ex5
-
-OPCIONAL -> M5 - ex-extra1 - ex-extra2, M4 - ex-extra1 - ex-extra2 - ex-extra3
