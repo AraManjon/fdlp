@@ -18,7 +18,14 @@ x [tipus-de-dades](./tipus-de-dades/tipus-de-dades.md). Mutables
 
 x [primera-web](./primera-web/primera-web.md). Terminal i com crear index.html i index.js
 
-x [interaccio](./interaccio/interaccio.md). Alert, prompt, confirm i getElementById
+x [interaccio](./interaccio/interaccio.md). Alert, prompt, confirm
+
+--------
+
+**29 · May**
+
+
+x [interaccio](./interaccio/interaccio.md). getElementById
 
 x operadors
 
@@ -31,13 +38,5 @@ x operadors
 x [template literals](./template-literals/template-literals.md)
 
 x M3 - ex1 - ex2
-
---------
-
-**29 · May**
-
-x Correció exercisis
-
-x M3 - ex3 - ex-extra-1 - ex-extra-2
 
 --------
