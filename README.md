@@ -22,7 +22,7 @@ x [interaccio](./interaccio/interaccio.md). Alert, prompt, confirm
 
 --------
 
-**29 · May**
+**29 · Jun**
 
 
 x [interaccio](./interaccio/interaccio.md). getElementById
@@ -37,6 +37,6 @@ x operadors
 
 x [template literals](./template-literals/template-literals.md)
 
-x M3 - ex1 - ex2
+x M3 - ex1 - ex2 - ex3
 
 --------
