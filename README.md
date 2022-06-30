@@ -40,3 +40,16 @@ x [template literals](./template-literals/template-literals.md)
 x M3 - ex1 - ex2 - ex3
 
 --------
+
+**30 · Jun**
+
+x Correcció M3 - ex1 - ex2 - ex3
+
+x operadors
+
+- [condicionals](./operadors/condicionals.md). if / else if / else
+
+
+x M3 - extra-ex1 - extra-ex2 | M4 - ex1 - ex2 - ex3
+
+
