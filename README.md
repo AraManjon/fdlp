@@ -53,3 +53,25 @@ x operadors
 x M3 - extra-ex1 - extra-ex2 | M4 - ex1 - ex2 - ex3
 
 
+--------
+
+**04 · Jul**
+
+x Correcció M3 - extra-ex1 - extra-ex2 | M4 - ex1 - ex2
+
+x M4 - extra-ex1
+
+--------
+
+**05 · Jul**
+
+x Correcció M4 - ex3
+
+x operadors
+
+- [condicionals](./operadors/condicionals.md). Operador ternari
+
+- [switch](./operadors/switch.md).
+
+x M4 - ex4 - ex5 - ex6 - extra-ex1
+
