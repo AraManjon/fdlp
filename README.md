@@ -87,3 +87,15 @@ x [identificadors](./identificadors/identificadors.md).
 
 x M4 - extra-ex2 - extra-ex3
 
+--------
+
+**07 · Jul**
+
+x Correcció M4 - extra-ex2
+
+x [loops](./loops/loops.md). Bucle for, while
+
+x [Mètodes d'array](./metodes-array/metodes-array.md). push
+
+x M5 - ex1 - ex1 - ex3 - ex4 - ex5
+
