@@ -71,7 +71,19 @@ x operadors
 
 - [condicionals](./operadors/condicionals.md). Operador ternari
 
-- [switch](./operadors/switch.md).
+x [switch](./operadors/switch.md).
 
 x M4 - ex4 - ex5 - ex6 - extra-ex1
+
+--------
+
+**06 · Jul**
+
+x Correcció M4 - ex4 - ex5 - ex6 - extra-ex1
+
+x [condicionals bones practiques](./condicionals-bones-practiques/condicionals-bones-practiques.md). Alternativa al switch -> objectes literals
+
+x [identificadors](./identificadors/identificadors.md).
+
+x M4 - extra-ex2 - extra-ex3
 
