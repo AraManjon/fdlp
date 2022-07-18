@@ -99,3 +99,6 @@ x [Mètodes d'array](./metodes-array/metodes-array.md). push
 
 x M5 - ex1 - ex1 - ex3 - ex4 - ex5
 
+--------
+
+**11 · Jul**
