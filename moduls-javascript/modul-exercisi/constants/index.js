@@ -1,1 +1,0 @@
-export const SUM_NUM = 2
