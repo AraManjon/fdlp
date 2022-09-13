@@ -24,7 +24,7 @@ Un cop superada aquesta fase, s'està preparant per començar l'especialització
 
 La base per programar és, senzillament, ser molt lògics, és a dir, poder visualitzar el camí més OBVI i més FÀCIL per aconseguir un objectiu.
 
-***L'esència de la lògica de la programació, Omar Trejos Buritrica***
+***L'essència de la lògica de la programació, Omar Trejos Buritrica***
 
 ### **2. Baby Steps**
 
@@ -34,16 +34,11 @@ Sí, el més petit possible.
 
 [Codingdojo](https://codingdojo.org/BabySteps/)
 
->***El viatge de mil milles comença per sota dels teus peus. ...acomplir la gran tasca per una sèrie de petits actes.***
->
-> — Tao Te Ching
-
 ### **3. Tothom pot ser programador/a**
 
 [Coneixement + Habilitats * Actitud](https://itservice.com.co/formula-victor-kuppers-conocimiento-habilidades-y-actitud/)
 
 [Discurs Steve Jobs, Stanford](https://www.youtube.com/watch?v=HHkJEz_HdTg)
-
 
 ### **4. Networking**
 

@@ -1,4 +1,5 @@
-function suma(a, b) {
-    return a + b;
+function sum (num1, num2) {
+    return num1 + num2
 }
-module.exports = suma;
+
+module.exports = sum
