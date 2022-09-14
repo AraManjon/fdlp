@@ -20,18 +20,18 @@ Notes:
 
 Exemple:
 ```
-let variable = 5; /* la variable és de tipus number */
+let variable = 5 /* la variable és de tipus number */
 
-variable = '5'; /* la variable és de tipus string */
+variable = '5' /* la variable és de tipus string */
 ```
 
 **3. JavaScript és un llenguatge de tipat dèbil o no tipat**. Vol dir que és un llenguatge amb el qual la declaració de variables no es requereix especificar quin tipus de dada tindrà.
 
 Exemple:
 ```
-const variableExempleString = 'I am a string'; /* la variable és de tipus string */
+const variableExempleString = 'I am a string' /* la variable és de tipus string */
 
-const variablExempleBoolean = true; /* la variable és de tipus boolean */
+const variablExempleBoolean = true /* la variable és de tipus boolean */
 ```
 
 **4. JavaScript és un llenguatge d'alt nivell**. És a dir, la seva sintaxi és molt similar a la del llenguatge de les persones.

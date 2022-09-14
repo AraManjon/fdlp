@@ -13,16 +13,18 @@ Notes:
 “El nostre codi ha de ser simple i directe, s'hauria de llegir amb la mateixa facilitat que un text ben escrit”. – Grady Booch
 
 ### **Noms pronunciables i expressius**
+
 ```
 //bad
-const yyyymmdstr = moment().format('YYYY/MM/DD');
+const yyyymmdstr = moment().format('YYYY/MM/DD')
+
 //better
-const currentDate = moment().format('YYYY/MM/DD');
+const currentDate = moment().format('YYYY/MM/DD')
 ```
 
 Notes:
-> - Ausència d'informació tècnica en els nombres (AbstractUser)
-> - Establir un llenguatge ubicup (user, client, customer..)
+> - Absència d'informació tècnica en els nombres (AbstractUser)
+> - Establir un llenguatge ubic (user, client, customer..)
 >
 
 ### **Noms segons el tipus de dada**
@@ -33,13 +35,16 @@ Llistes d'elements d'un mateix tipus.
 
 ```
 //bad
-const fruit = ['manzana','platano','fresa'];
+const fruit = ['apple','banana','strawberry']
+
 //regular
-const fruitList = ['manzana','platano','fresa'];
+const fruitList = ['apple','banana','strawberry']
+
 //good
-const fruits = ['manzana','platano','fresa'];
+const fruits = ['apple','banana','strawberry']
+
 //better
-const fruitNames = ['manzana','platano','fresa'];
+const fruitNames = ['apple','banana','strawberry']
 ```
 
 #### Booleans
@@ -56,18 +61,19 @@ let isOpen = true;
 let canWrite = true;
 let hasFruit = true;
 ```
+
 #### Número
 
 Escollir paraules que descriguin número, com min, max o total:
 
 ```
 //bad
-const fruits = 3;
+const fruits = 3
 
 //better
-const maxFruits = 5;
-const minFruits = 1;
-const totalFruits = 3;
+const maxFruits = 5
+const minFruits = 1
+const totalFruits = 3
 ```
 
 #### Funcions
