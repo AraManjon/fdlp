@@ -26,6 +26,12 @@ x [INTERACCIO](./interaccio/interaccio.md)
 
 · [INTERACCIO](./interaccio/interaccio.md)
 
-· [OPERADORS]
+· OPERADORS
+    · [Aritmètics](./operadors/aritmetics.md)
+    · [Comparació](./operadors/comparacio.md)
+    · [Lògics](./operadors/logics.md)
+
+· EX: M3-ex1, M3-ex2, M3-ex3, 
+· OPCIONALS: M3-extra1, M3-extra2
 
 

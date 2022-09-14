@@ -7,17 +7,17 @@
 Si algun dels seus arguments és ```true```, retorna ```true```, en cas contrari retorna ```false```.
 
 ```
-console.log( true || true );   // true
-console.log( false || true );  // true
-console.log( true || false );  // true
-console.log( false || false ); // false
+true || true  // true
+false || true // true
+true || false // true
+false || false // false
 ```
 
 ```
-const hour = 9;
+const hour = 9
 
 if (hour < 10 || hour > 18) {
-  console.log( "L'oficina és tancada." );
+  console.log( "L'oficina és tancada." )
 }
 ```
 
@@ -29,14 +29,14 @@ if (hour < 10 || hour > 18) {
 Exemple:
 
 ```
-console.log( 1 || 0 ); // 1 
+1 || 0 // 1 
 
-console.log( null || 1 ); // 1
-console.log( null || 0 || 1 ); // 1
+null || 1 // 1
+null || 0 || 1 // 1
 
-console.log( undefined || null || 0 ); // 0
+undefined || null || 0 // 0
 
-console.log('' || 'hola'); // hola
+'' || 'hola' // hola
 ```
 
 ### **```&&``` (AND)**
@@ -44,18 +44,18 @@ console.log('' || 'hola'); // hola
 A la programació clàssica, AND retorna ```true``` si els dos operands són veritables i ```false``` en cas contrari:
 
 ```
-console.log( true && true );   // true
-console.log( false && true );  // false
-console.log( true && false );  // false
-console.log( false && false ); // false
+true && true // true
+false && true // false
+true && false // false
+false && false // false
 ```
 
 ```
-const hour = 12;
-const minute = 30;
+const hour = 12
+const minute = 30
 
 if (hour === 12 && minute === 30) {
-  console.log( 'Són les 12:30' );
+  console.log( 'Són les 12:30' )
 }
 ```
 
@@ -67,10 +67,10 @@ if (hour === 12 && minute === 30) {
 Exemple:
 
 ```
-console.log( 1 && 0 ); // 0
-console.log( 1 && 5 ); // 5
-console.log( null && 5 ); // null
-console.log( 0 && "qualsevol valor" );
+1 && 0 // 0
+1 && 5 // 5
+null && 5 // null
+0 && "qualsevol valor"
 ```
 
 ### **```!``` (NOT)**
@@ -81,8 +81,8 @@ L'operador accepta un sol argument i fa el següent:
 2. Retorna el valor invers.
 
 ```
-console.log( !true ); // false
-console.log( !0 ); //true
+console.log( !true ) // false
+console.log( !0 ) //true
 ```
 
 ```
@@ -95,8 +95,8 @@ if (!username) {
 Un doble ```!!``` (NOT) de vegades s'utilitza per convertir un valor al tipus boolean:
 
 ```
-console.log( !!"non-empty string" ); // true
-console.log( !!null ); // false
+console.log( !!"non-empty string" ) // true
+console.log( !!null ) // false
 ```
 
 ### **```??``` (Nullish)**
@@ -112,18 +112,16 @@ si a no està definit, aleshores b.
 
 En altres paraules, ```??``` retorna el primer argument si no és null/undefinded. En cas contrari, el segon.
 
-result = (a !== null && a !== undefined) ? a : b;
+Funciona molt bé per establir valors per defecte.
+
+```
+const DEFAULT_NAME = 'User'
+
+let username = prompt('Introdueix el teu nom', 'nom') ?? defaultName
+
+console.log(`Benvingut/a ${username}`)
+
+```
 
 🚨
 > ?? retorna el primer valor "definit" (entenen definit com no ```undefined``` o ```null```).
-
-```
-let result = 0
-let number = null;
-
-if (number ?? false) {
-    alert("has d'intrroduir algún número")
-} else {
-    result += number;
-}
-```

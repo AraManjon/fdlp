@@ -15,30 +15,29 @@ Tots els operadors de comparació retornen un valor boolean:
 |No és igual |    ```a !== b```
 
 ```
-console.log( 2 > 1 );  // true 
-console.log( 2 > 2 ); // false
-console.log( 2 >= 2 ); // true
-console.log( 2 === 1 ); // false 
-console.log( 2 !== 1 ); // true
+2 > 1 // true 
+2 > 2 // false
+2 >= 2 // true
+2 === 1 // false 
+2 !== 1 // true
 ```
 
 Els strings són comparats lletra per lletra.
 ```
-console.log( 'Z' > 'A' ); // true
-console.log( 'Glow' > 'Glee' ); // true
-console.log( 'Bee' > 'Be' ); // true
+'Z' > 'A' // true
+'Glow' > 'Glee' // true
+'Bee' > 'Be' // true
 ```
-
 
 🚨 Per comprovar la igualtat de dos valors també existeix amb ```==``` o ```!=```, en aquest cas no compara tipus, és per això que no es recomana fer servir.
 
 ```
-console.log( 0 == false ); // true
-console.log( 10 == '10' ); // true
+0 == false // true
+10 == '10' // true
 ```
 ```
-console.log( 0 === false ); // false
-console.log( 10 === '10' ); // false
+0 === false // false
+10 === '10' // false
 ```
 
 ### 📚 Recursos
