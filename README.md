@@ -10,21 +10,22 @@ x [ALTRES RECURSOS](./altres-recursos/altres-recursos.md)
 
 x [VARIABLES](./variables/variables.md) -> let i const
 
-x [TIPUS DE DADES PRIMITIVES](./tipus-de-dades/primitives.md) -> primitives / immutables / no objectes
+x [TIPUS DE DADES PRIMITIVES / IMMUTABLES](./tipus-de-dades/primitives.md)
 
-x [TIPUS DE DADES NO PRIMITIVES](./tipus-de-dades/no-primitives.md) -> no primitives / mutables / objectes
+x [TIPUS DE DADES NO PRIMITIVES / MUTABLES](./tipus-de-dades/no-primitives.md) 
 
 **14·SEP**
 
-· [TIPUS DE DADES NO PRIMITIVES](./tipus-de-dades/no-primitives.md) -> no primitives / mutables / objectes
+x [TIPUS DE DADES NO PRIMITIVES / MUTABLES](./tipus-de-dades/no-primitives.md)
 
-· [IDENTIFICADORS]
+x [PRIMERA WEB](./primera-web/primera-web.md)
 
-· [PRIMERA WEB]
-
-· [OPERADORS]
+x [INTERACCIO](./interaccio/interaccio.md)
 
 **15·SEP**
 
-· [INTERACCIO]
+· [INTERACCIO](./interaccio/interaccio.md)
+
+· [OPERADORS]
+
 

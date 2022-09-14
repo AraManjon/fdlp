@@ -24,14 +24,14 @@ Commands:
 
 > **type nul >** *nom-arxiu* (Windows: per crear un arxiu)
 
-🚨 Podem escriure ```ls``` (en Mac) o ```dir``` (en Windows) per poder veure el contigut de la carpetaa, ara ens sortiran els dos arxius creats, index.html i index.js
+🚨 Podem escriure ```ls``` (en Mac) o ```dir``` (en Windows) per poder veure el contingut de la carpeta, ara ens sortiran els dos arxius creats, index.html i index.js
 
 Notes:
 
 > **rm** *nom-arxiu* (Apple & Windows: esborrar arxius)
-> **rm -rf** *nom-carpeta* (Apple & Windows: esborrar carpetas)
+> **rm -rf** *nom-carpeta* (Apple & Windows: esborrar carpetes)
 
-> **fsutil file createnew** *nom-arxiu* **0** (Windows: una altre opció per crear un arxiu)
+> **fsutil file createnew** *nom-arxiu* **0** (Windows: una altra opció per crear un arxiu)
 
 > **code .** ens obrirà el vsc des de la carpeta on estem situats
 
@@ -54,7 +54,7 @@ Importem arxius .js:
 
 I dins l'arxiu index.js és on afegirem el codi javascript ```console.log('hello world')```
 
-En linea: 
+En línea: 
 ```
 <script>
     console.log('hello world')

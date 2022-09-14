@@ -1,25 +1,13 @@
-console.log('hola mundo')
+alert('Benvigut/da')
 
-alert('Hola que tal')
+const nombre = prompt('Introdueix el teu nom')
 
-const nombre = prompt('Introduce tu nombre')
-
-console.log(nombre)
+console.log('Hola', nombre)
 
 const isOver18 = confirm('Eres mayor de edad?')
 
+console.log("L'usuari és major d'edat:", isOver18)
 
-function showName () {
-    const inputElement = document.getElementById("name")
-
-    console.log(inputElement)
-
-    const nameValue = inputElement.value
-    
-    console.log(nameValue)
-
-    document.getElementById('greeting').innerHTML = `Hello ${nameValue}`
-}
 
 
 
