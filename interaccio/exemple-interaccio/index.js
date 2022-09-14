@@ -1,3 +1,12 @@
+/* 
+    comentari de 
+    més
+    d'una
+    línea
+*/
+
+// comentari d'una línea
+
 alert('Benvigut/da')
 
 const nombre = prompt('Introdueix el teu nom')
