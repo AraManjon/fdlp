@@ -1,22 +1,28 @@
 /* 
-    comentari de 
-    més
-    d'una
-    línea
-*/
+console.log('Hola,que tal?')
 
-// comentari d'una línea
+alert('Benvinguts')
 
-alert('Benvigut/da')
+const age = prompt('Cual es tu edad?')
 
-const nombre = prompt('Introdueix el teu nom')
+const ageUserConfirmed = confirm(`Tu edad es realmente ${age}?`)
 
-console.log('Hola', nombre)
-
-const isOver18 = confirm('Eres mayor de edad?')
-
-console.log("L'usuari és major d'edat:", isOver18)
+console.log('age confirmed -> ' + ageUserConfirmed) */
 
 
+function checkAge () {
 
+    const inputAge = document.getElementById('input-age').value
+    
+    if ( inputAge >= 18 ) {
+        alert('Puedes acceder a la web')
 
+        document.getElementById('result').innerHTML = 'Eres mayor de edat'
+    }
+
+    if ( inputAge < 18 ) {
+        alert('No puedes entrar')
+    }
+
+}
+ 
