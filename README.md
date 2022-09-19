@@ -24,14 +24,24 @@ x [INTERACCIO](./interaccio/interaccio.md)
 
 **15·SEP**
 
-· [INTERACCIO](./interaccio/interaccio.md)
+x [INTERACCIO](./interaccio/interaccio.md)
 
-· OPERADORS
+x OPERADORS
     · [Aritmètics](./operadors/aritmetics.md)
     · [Comparació](./operadors/comparacio.md)
     · [Lògics](./operadors/logics.md)
 
-· EX: M3-ex1, M3-ex2, M3-ex3, 
-· OPCIONALS: M3-extra1, M3-extra2
+x EX: M3-ex1, M3-ex2, M3-ex3
+
+x OPCIONALS: M3-extra1, M3-extra2
+
+**19·SEP**
+
+x Correcció: EX M3-ex1, M3-ex2, M3-ex3
+
+x OPERADORS
+    · [Condicionals](./operadors/condicionals.md)
+
+x Exemple: [alphabetic input validation](./operadors/aphabetic-input/)
 
 
