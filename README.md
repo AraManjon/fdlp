@@ -71,3 +71,10 @@ CAP DE SETMANA:
 · M7.1-ex3, M7.1-ex4, M4-extra1, M4-extra2, M4-extra3
 
 
+** 27·SEP **
+
+x Correcció: M7.1-ex3, M7.1-ex4, M4-extra1, M4-extra2
+
+x [LOOPS](./loops/loops.md)
+
+x M5-ex1, M5-ex2, M5-ex3
