@@ -68,7 +68,7 @@ x Correcció: M4-ex4, M4-ex5, M4-ex6
 
 CAP DE SETMANA: 
 
-· M7.1-ex3, M7.1-ex4, M4-extra1, M4-extra2, M4-extra3
+x M7.1-ex3, M7.1-ex4, M4-extra1, M4-extra2, M4-extra3
 
 
 ** 27·SEP **
