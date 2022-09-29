@@ -93,6 +93,6 @@ x Correcció: M6-ex2
 
 CAP DE SETMANA: 
 
-M5-ex4, M5-ex5, M6-ex1, M6-extra1
+M5-ex4, M5-ex5, M6-ex1, M6-ex3
 
-Opcionals: M5-extra1, M5-extra2, M6-ex3
+Opcionals: M5-extra1, M5-extra2
