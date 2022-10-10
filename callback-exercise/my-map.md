@@ -1,63 +1,47 @@
-### My-map
+## myMap Function
 
-This program aims to be a function prepared to receive an array and another function as parameters. 
+The function **myMap** aims to be a function prepared to receive as a first parameter an array and as a second parameter another function (callback). 
 
-The program should be able to apply to each element of the array the function passed as the second parameter and return a new array with this result. 
+The function **myMap** should be able to apply to each element of the array, the function passed as the second parameter and return a new array with the result of applies the callback. 
 
-Case 1:
-The first parameter should be an array
+Example: 
 
-As a user, when I pass not an array as first parameter to the program, we see an error in the console that says 'first parameter is not an array'.
+```
+const myArr = [1,2,3]
 
-Case 2:
-The second parameter should be a function
+const result = myMap( myArr, multiplyByTwo )
 
-As a user, when I pass not a function as second parameter to the program, we see an error in the console that says 'second parameter is not a function'.
+console.log(result) // [2, 4, 6]
+```
 
-Case 3:
-Sum by one
+### Requirement 1:
 
-As a user, when I pass an array with numbers and call to the program, we get a new array with all numbers sumed by one.
+**The first parameter should be an array**
 
-Case 4:
-Sum by two
+When I don't pass an array as first parameter to the function, we see an error in the console that says 'The first parameter should be an array'.
 
-As a user, when I pass an array with numbers and call to the program, we get a new array with all numbers sumed by two.
+### Requirement 2:
 
+**The second parameter should be a function**
 
-Case 5:
-Sum by three
+When I don't pass a function as second parameter to the function, we see an error in the console that says 'The second parameter should be a function'.
 
-As a user, when I pass an array with numbers and call to the program, we get a new array with all numbers sumed by three.
+### Requirement 3:
 
-Case 6:
-Multiply by two
+**The function myMap should work with the next cases**
 
-As a user, when I pass an array with numbers and call to the program, we get a new array with all numbers multiplied by two.
+Case 1: **multiplyByTwo**
 
-Case 7:
-Rest by two
+When I pass an array with numbers [1,2,3,4,5] to **myMap**, we get a new array with all numbers multiplied by two [2,4,6,8,10] as a result.
 
-As a user, when I pass an array with numbers and call to the program, we get a new array with all numbers rested by two.
+Case 2: **multiplyByTen**
 
-Case 8:
-Divide by two
+When I pass an array with numbers [1,2,3,4,5] to **myMap**, we get a new array with all numbers multiplied by 10 [10,20,30,40,50] as a result.
 
-As a user, when I pass an array with numbers and call to the program, we get a new array with all numbers divided by two.
+Case 3: **convertToUpperCase**
 
-Case 9:
-Convert to upper case
-
-As a user, when I pass an array with strings in lower case and call to the program, we get a new array with all words to upper case.
+When I pass an array with strings ['Barcelona','Paris','Roma','Londres','Berlin'] to **myMap**, we get a new array with all strings to upper case ['BARCELONA','PARIS','ROMA','LONDRES','BERLIN'] as a result.
 
 
-AXES
-
-1
-- How create array
-- How interact user
-
-2
-- Apply something for each element
-
+🚨 Make sure that **myMap** returns a new array and the original array is not modified.
 

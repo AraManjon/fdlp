@@ -1,57 +1,54 @@
-### My-filter
+## myFilter Function
 
-This program aims to be a function prepared to receive an array and another function as parameters. 
+This function **myFilter** aims to be a function prepared to receive as a first parameter an array and as a second parameter another function (callback). The function callback should valuate a condition that returns ```true``` or ```false```.
 
-The function should valuate a condition that returns true or false.
+The function **myFilter** should be able to apply to each element of the array the function passed as the second parameter and return a new array with elements that accomplish the condition of function callback. 
 
-The program should be able to apply to each element of the array the function passed as the second parameter and return a new array with elements that accomplish the condition of function. 
+Example: 
 
+```
+const myArr = [1,2,3,4,5,6,7,8,9,10]
 
-Case 1:
-The first parameter should be an array
+const result = myFilter( myArr, isBiggerThanFive )
 
-As a user, when I pass not an array as first parameter to the program, we see an error in the console that says 'first parameter is not an array'.
+console.log(result) // [6,7,8,9,10]
 
-Case 2:
-The second parameter should be a function
+```
 
-As a user, when I pass not a function as second parameter to the program, we see an error in the console that says 'second parameter is not a function'.
+### Requirement 1:
 
-Case 3:
-Number is bigger than 1
+**The first parameter should be an array**
 
-As a user, when I pass an array with numbers [1,2,3,4,5] and call to the program, we get a new array with all numbers bigger than 1.
+When I don't pass an array as first parameter to the function, we see an error in the console that says 'The first parameter should be an array'.
 
-Case 4:
-Number is bigger than 2
+### Requirement 2:
 
-As a user, when I pass an array with numbers [1,2,3,4,5] and call to the program, we get a new array with all numbers bigger than 2.
+**The second parameter should be a function**
 
+When I don't pass a function as second parameter to the function, we see an error in the console that says 'The second parameter should be a function'.
 
-Case 5:
-Number is bigger than 3
+### Requirement 3:
 
-As a user, when I pass an array with numbers [1,2,3,4,5] and call to the program, we get a new array with all numbers bigger than 3.
+**The function myFilter should work with the next cases**
 
-Case 6:
-Number is smaller than 3
+Case 1: **isBiggerThanFive**
 
-As a user, when I pass an array with numbers [1,2,3,4,5] and call to the program, we get a new array with all numbers smaller than 3.
+When I pass an array with numbers [1,2,3,4,5,6,7,8,9,10] to **myFilter**, we get a new array with all numbers bigger than five [6,7,8,9,10] as a result.
 
-Case 7:
-Number is even
+Case 2: **isEvenNumber**
 
-As a user, when I pass an array with numbers [1,2,3,4,5] and call to the program, we get a new array with all even numbers.
+When I pass an array with numbers [1,2,3,4,5,6,7,8,9,10] to **myFilter**, we get a new array with all even numbers [2,4,6,8,10] as a result.
 
-Case 8:
-Number is odd
+Case 3: **startsByB**
 
-As a user, when I pass an array with numbers [1,2,3,4,5] and call to the program, we get a new array with all odd numbers.
+When I pass an array with strings ['Barcelona','Paris','Roma','Londres','Berlin'] to **myFilter**, we get a new array with all cities that starts with letter 'B' ['barcelona','berlin'] as a result.
 
-Case 9:
-User name is Pepito
+Case 4: **isGrilloFamily**
 
-As a user, when I pass an array with names [{name: 'Pepita', surname: 'Grillo', age: 25}, { name: 'Maria', surname: 'Martinez', age: 35}, {name: 'Pepito', surname: 'Grillo', age: 27}, {name: 'Pepito', surname: 'Sanchez', age: 45} ] and call to the program, we get a new array with all users with Pepito's name.
+When I pass an array with users ```[{name: 'Pepita', surname: 'Grillo', age: 95},{name: 'Maria', surname: 'Martinez', age: 35},{name: 'Pepito', surname: 'Grillo', age: 110},{name: 'Pepito', surname: 'Sanchez', age: 45}]``` to **myFilter**, we get a new array with all users with Grillo's surname 
+```[{name: 'Pepita', surname: 'Grillo', age: 95},{name: 'Pepito', surname:'Grillo', age: 110}]``` as a result.
+
+🚨 Make sure that **myFilter** returns a new array and the original array is not modified.
 
 
 

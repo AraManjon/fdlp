@@ -96,3 +96,31 @@ CAP DE SETMANA:
 M5-ex4, M5-ex5, M6-ex1, M6-ex3
 
 Opcionals: M5-extra1, M5-extra2
+
+
+**03·OCT**
+
+x Correcció: M5-ex4, M5-ex5, M6-ex1, M6-ex3
+
+**04·05·06·OCT**
+
+x Moduls 7.1 / 7.2 / 7.3
+
+**10·OCT**
+
+x Correcció: M7.2-ex6
+
+x [FUNCIONS AVANÇAT](./funcions/funcions-avan%C3%A7at.md)
+
+x M7.3-ex-7
+
+
+**11·OCT**
+
+x Correcció: M7.3-ex-7
+
+x [Side-effects](./callback-exercise/side-effects.md)
+
+x [myMap](./callback-exercise/my-map.md)
+
+x [myFilter](./callback-exercise/my-filter.md)
