@@ -121,6 +121,8 @@ x Correcció: M7.3-ex-7
 
 x [Side-effects](./callback-exercise/side-effects.md)
 
-x [myMap](./callback-exercise/my-map.md)
+x [Module example](./moduls-javascript/modul-example/)
 
-x [myFilter](./callback-exercise/my-filter.md)
+x Exercicis: 
+    - [myMap](./callback-exercise/my-map.md) 
+    - [myFilter](./callback-exercise/my-filter.md)
