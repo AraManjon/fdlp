@@ -1,29 +1,41 @@
 import { films } from './films.js'
 console.log(films)
-// show all films titles
-function showTitleFilms () {
-}
-showTitleFilms()
 
-// create new array with imdbRating to number 
-function changeRatingToNumber () {
-}
-changeRatingToNumber()
 
-// order films by year
-function orderFilmsByYear () {
+// show all films -> title, imdbRating
+function showFilms () {
 }
-orderFilmsByYear()
+showFilms()
 
-// show comming soon films
-function showCommingSoonFilms () {
+// order films by title asc
+function orderFilmsByTitleAsc () {
 }
-showCommingSoonFilms()
+orderFilmsByTitleAsc()
+
+// order films by title desc
+function orderFilmsByTitleDesc () {
+}
+orderFilmsByTitleDesc()
+
+// order films by imdbRating asc
+function orderImdbRatingByTitleAsc () {
+}
+orderImdbRatingByTitleAsc()
+
+// order films by imdbRating desc
+function orderImdbRatingByTitleDesc () {
+}
+orderImdbRatingByTitleDesc()
+
+// show detail film -> title, director, genre, type, actors, plot, imdbRating
+function showDetailFilm () {
+}
+showDetailFilm()
 
 // find some serie with genere Action
-function findSomeSerie () {
+function findSomeFilms () {
 }
-findSomeSerie()
+findSomeFilms()
 
 // reduce imdbRating and calculate average
 function averageRating () {
