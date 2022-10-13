@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type='module' src="index.js"></script>
-    <title>Document</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <title>ItFilms</title>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1 class="title">ItFilms</h1>
+            <input id="search-value" type="text" class="search-bar__input">
+            <button onclick="searchFilmsByCriteria()" id="search-button" class="search-bar__button">🔍 Search</button>
+        </div>
+
+        <div class="container">
+            <button onclick="sortByRatingDesc()" id="sort-desc-button" class="tooltip">
+                ⬆
+                <span class="tooltiptext">Sort by Rating Average in descending order</span>
+            </button>
+            <button onclick="sortByRatingAsc()" id="sort-asc-button" class="tooltip">
+                ⬇
+                <span class="tooltiptext">Sort by Rating Average in ascending order</span>
+            </button>
+        </div>
+        <div class="container">
+            <button onclick="findByGenre('Action')" id="action" class="genre__button">ACTION</button>
+            <button onclick="findByGenre('Adventure')" id="adventure" class="genre__button">ADVENTURE</button>
+            <button onclick="findByGenre('Comedy')" id="comedy" class="genre__button">COMEDY</button>
+            <button onclick="findByGenre('Drama')" id="drama" class="genre__button">DRAMA</button>
+            <button onclick="findByGenre('Horror')" id="horror" class="genre__button">HORROR</button>
+            <button onclick="findByGenre('Sci-Fi')" id="sci-fi" class="genre__button">SCI-FI</button>
+        </div>
+    </header>
+    <main>
+        <p id="films" class="text"></p>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>

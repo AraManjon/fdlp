@@ -1,0 +1,129 @@
+body,
+html {
+	box-shadow: none;
+	height: 100%;
+	background-color: rgb(5, 0, 31);
+	color: rgb(73, 255, 131);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	width: 100%;
+	background-color: rgb(5, 0, 31);
+    position: sticky;
+}
+
+button {
+	border: none;
+	border-radius: 0.2rem;
+	cursor: pointer;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+input:focus {
+	outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+	border-radius: 0.2rem;
+	outline: none;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+main {
+    overflow-y: scroll;
+    margin: 0 1rem;
+}
+.green__button {
+	color: rgb(5, 0, 31);
+	background-color: rgb(73, 255, 131);
+}
+
+.title {
+	margin: 0 auto;
+    font-size: 1.5rem;
+    flex-grow: 2;
+    text-align: left;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0.5rem;
+	justify-content: flex-end;
+}
+
+.search-bar__input {
+	max-width: 20rem;
+	min-width: 15rem;
+	margin: 0.2rem;
+	flex-grow: 2;
+}
+
+.search-bar__button {
+	max-width: 10rem;
+	min-width: 6rem;
+	margin: 0.2rem;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+    margin: 0 0.2rem;
+}
+
+.tooltiptext {
+	top: 1.5rem;
+	right: 0;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 10rem;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.5rem;
+	padding: 0.5rem 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.genre__button {
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+    background-color: rgb(73, 255, 131);
+    flex-grow: 1;
+    margin: 0.2rem 0.6rem;
+    font-size: 0.7em;
+    font-weight: 800;
+}
+
+.text {
+    color: #fff;
+}
