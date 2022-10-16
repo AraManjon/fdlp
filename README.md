@@ -119,10 +119,25 @@ x M7.3-ex-7
 
 x Correcció: M7.3-ex-7
 
-x [Side-effects](./callback-exercise/side-effects.md)
+x [SIDE-EFFECTS](./callback-exercise/side-effects.md)
 
-x [Module example](./moduls-javascript/modul-example/)
+x [MODULE EXEMPLE](./moduls-javascript/modul-example/)
 
 x Exercicis: 
     - [myMap](./callback-exercise/my-map.md) 
     - [myFilter](./callback-exercise/my-filter.md)
+
+**13·OCT**
+
+x Correcció: [myMap](./callback-exercise/my-map.md)
+
+x [MÈTODES ARRAY](./metodes-array/metodes-array.md)
+
+x [MÈTODES ARRAY AVANÇAT](./metodes-array/metodes-array2.md)
+
+
+CAP DE SETMANA:
+
+x movies
+
+x bingo

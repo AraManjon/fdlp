@@ -103,7 +103,7 @@ const films = [
 		plot:
 			'When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society.',
 		poster: 'http://ia.media-imdb.com/images/M/MV5BMTU2MTQwMjU1OF5BMl5BanBnXkFtZTgwMDA5NjU5ODE@._V1_SX300.jpg',
-		imdbVotes: '6',
+		imdbRating: '6',
 		type: 'movie'
 	}
 ];
@@ -124,7 +124,7 @@ function showFilms(films) {
 
 showFilms(films);
 
-function searchFilmsByCriteria() {
+function searchByCriteria() {
 
     //showFilms()
 }

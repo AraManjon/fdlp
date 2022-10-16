@@ -34,6 +34,15 @@ Molts cops es descriu Javascript com un llenguatge orientat a objectes basat en 
 
 ![Exemple de com amb javascript utilitza els prototips com sistema d'herència.](./prototips.png)
 
+
+### **Herència de classes vs. herència mitjançant ptototips**
+
+**Herència de classes**: una classe és com un motlle. Una descripció de l'objecte que es crearà. Un objecte hereta d'una classe i es coonverteix en subclase. Per tant, l'herenecia és jerarquica de epare a fills. 
+
+A Javascript, la paraula **class** es va ontroduir en ES6, per ser més similar sintàcticament a llenguatges propis d'OOP, com Java. Però class en realitat éees una funció constructora.
+
+Amb l'**herència prototípica** s'utilitza la cadena de prototips per connectar el fill al pare. El que es permeta amb aquest tipus d'herència és que un objecte sigui compost de molts objectes d'origen diferent. Per tant, permet una herèencia més selectiva i plana.
+
 #### **Funcions: ciutadans de primera classe**
 
 typeof instance === 'function'
@@ -65,13 +74,13 @@ const message = greet(teacher) // "Welcome Teacher"
 ```
 
 ```
-const greet = function(){
+const generateGreet = function(){
     return function(){
-        return "Welcome!"
+        console.log("Welcome!")
     }
 }
-const message = greet()
-console.log(message) //"Welcome"
+const showMessage = generateGreet()
+showMessage() //"Welcome"
 ```
 
 Notes:
@@ -142,6 +151,7 @@ const circle = {
         console.log('draw')
     }
 }
+
 const circle2 = {
     radius: 1,
     location: {
@@ -273,7 +283,3 @@ persona.name //undefined
 ### Encapsulament
 
 L'encapsulament fa servir les tècniques de l'ocultació per aïllar l'objecte de l'exterior. Aquest aïllament fa que les dades (propietats) de l'objecte només es puguin gestionar amb les operacions (mètodes) definides en aquest objecte. Es deia que JavaScript no podia amagar i/o encapsular dades perquè els objectes no podien tenir variables i mètodes privats com passa amb Java i altres llenguatges.
-
-
-### 📚 Recursos
-[Programació funcional](https://softwarecrafters.io/javascript/introduccion-programacion-funcional-javascript)
