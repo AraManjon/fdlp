@@ -9,16 +9,18 @@ Com a mètodes només haurà de tenir els getters (excepte el password) i setter
 **C**reateAccunt haurà de demanar que l'usuari introdueixi per pantalla un email, un password i un repeat password. 
 
 🚫 El email a d'estar en un format correcte.
+
 🚫 No ha d'existir cap compte amb aquest email.
+
 🚫 El password i el repeat password han de ser idèntics.
 
 **U**pdateAccount per accedir a aquesta opció, s'haurà de validar aquest compte. En el cas que es compleixi la validació, li demanarem si vol modificar l'username, email, password o languagePreferences.
 
 **R**eadAccount per accedir a aquesta opció, s'haurà de validar aquest compte. En el cas que es compleixi la validació, li mostrarem les dades del compte excepte el password.
 
-**D**eleteAccount per accedir a aquesta opció, s'haurà de validar aquest compte. En el cas que es compleixi la validació, l'eliminarem mostrarem un missatge conforme s'ha eliminat correctament.
+**D**eleteAccount per accedir a aquesta opció, s'haurà de validar aquest compte. En el cas que es compleixi la validació, l'eliminarem. Mostrarem un missatge conforme s'ha eliminat correctament.
 
-✅ Validar el compte: Demanarem a l'usuari que introdueixi l'email i el password, en el cas que no existeixi cap compte amb aquest email o el password no sigui correcte, li mostrarem un missatge de 'L'email o el password que has escrit no són correctes'.
+✅ Validar el compte: Demanarem a l'usuari/a que introdueixi l'email i el password, en el cas que no existeixi cap compte amb aquest email o el password no sigui correcte, li mostrarem un missatge de 'L'email o el password que has escrit no són correctes'.
 
 
 
