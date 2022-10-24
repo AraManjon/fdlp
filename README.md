@@ -141,3 +141,30 @@ CAP DE SETMANA:
 x movies
 
 x bingo
+
+**17·OCT**
+
+x Correcció: movies
+
+x Correcció: bingo
+
+x [OOP](./oop/oop.md)
+
+x M8-ex.1
+
+**18·OCT**
+
+x Correcció: M8-ex.1
+
+x M8-ex.2
+
+**19·OCT**
+
+x Correcció: M8-ex.2
+
+x [EX.userAccount](./oop/userAccount.md)
+
+**20·OCT**
+
+x Correcció: EX.userAccount
+
