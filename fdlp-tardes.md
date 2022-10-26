@@ -29,3 +29,7 @@ x OPERADORS
 
 x EX: M3-ex1, M3-ex2, M3-ex3
 
+**26·OCT**
+
+x Correcció: EX: M3-ex2
+
