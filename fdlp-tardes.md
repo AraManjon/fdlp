@@ -27,9 +27,24 @@ x OPERADORS
     · [Comparació](./operadors/comparacio.md)
     · [Lògics](./operadors/logics.md)
 
-x EX: M3-ex1, M3-ex2, M3-ex3
+x A CASA: M3-ex1, M3-ex2
 
 **26·OCT**
 
 x Correcció: EX: M3-ex2
+
+x A CASA: M3-ex3
+
+**27·OCT**
+
+x Correcció: EX: M3-ex3
+
+x OPERADORS
+    · [Comparació](./operadors/comparacio.md)
+
+x EX: M4-ex1
+
+x CAP DE SETMANA: M3-extra-ex1, M3-extra-ex2, M4-ex2, M4-ex3, 
+
+
 
