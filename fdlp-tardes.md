@@ -44,7 +44,15 @@ x OPERADORS
 
 x EX: M4-ex1
 
-x CAP DE SETMANA: M3-extra-ex1, M3-extra-ex2, M4-ex2, M4-ex3, 
+x CAP DE SETMANA: M3-extra-ex1, M3-extra-ex2, M4-ex2, M4-ex3
+
+**02·NOV**
+
+x Correcció: M3-extra-ex1, M3-extra-ex2, M4-ex2, M4-ex3
+
+x [Switch](./switch/switch.md)
+
+x EX: M4-ex4
 
 
 
