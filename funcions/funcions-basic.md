@@ -1,6 +1,6 @@
 # FUNCIONS BÀSIC
 
-“Sabem que estem desenvolupant codi net quan cada funció fa exactament el que el seu nom indica”. – Ward Cunningham31
+“Sabem que estem desenvolupant codi net quan cada funció fa exactament el que el seu nom indica”. – Ward Cunningham
 
 Les funcions són les entitats organitzatives més bàsiques d'un programa. 
 
