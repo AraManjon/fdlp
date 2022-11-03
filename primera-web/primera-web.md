@@ -29,7 +29,8 @@ Commands:
 Notes:
 
 > **rm** *nom-arxiu* (Apple & Windows: esborrar arxius)
-> **rm -rf** *nom-carpeta* (Apple & Windows: esborrar carpetes)
+> **rm -rf** *nom-carpeta* (Apple esborrar carpetes)
+> **rd -r** *nom-carpeta* (Windows: esborrar carpetes)
 
 > **fsutil file createnew** *nom-arxiu* **0** (Windows: una altra opció per crear un arxiu)
 

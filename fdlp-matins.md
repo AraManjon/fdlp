@@ -20,12 +20,16 @@ x [PRIMERA WEB](./primera-web/primera-web.md)
 
 x [INTERACCIO](./interaccio/interaccio.md)
 
+x EX: M3-ex1
+
+**07·NOV**
+
 x OPERADORS
     · [Aritmètics](./operadors/aritmetics.md)
     · [Comparació](./operadors/comparacio.md)
     · [Lògics](./operadors/logics.md)
 
-x EX: M3-ex1, M3-ex2, M3-ex3
+x EX: M3-ex2, M3-ex3
 
 x OPCIONALS: M3-extra1, M3-extra2
 

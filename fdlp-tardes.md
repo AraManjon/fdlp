@@ -54,5 +54,7 @@ x [Switch](./switch/switch.md)
 
 x EX: M4-ex4
 
+x EX: M4-ex5 - M4-ex6
+
 
 
