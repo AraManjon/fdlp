@@ -56,5 +56,15 @@ x EX: M4-ex4
 
 x EX: M4-ex5 - M4-ex6
 
+**03·NOV**
+
+x Correcció: M4-ex5 - M4-ex6
+
+x [Condicionals bones pràctiques](./condicionals-bones-practiques/condicionals-bones-practiques.md)
+
+x [Àmbit variables](./variables/ambit-variables.md)
+
+x CAP DE SETMANA: M4- Extra 1, M4-Extra 2, M4-Extra3, M6-Ex1
+
 
 

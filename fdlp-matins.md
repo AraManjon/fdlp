@@ -20,7 +20,7 @@ x [PRIMERA WEB](./primera-web/primera-web.md)
 
 x [INTERACCIO](./interaccio/interaccio.md)
 
-x EX: M3-ex1
+x CAP DE SETMANA: M3-ex1
 
 **07·NOV**
 

@@ -59,5 +59,5 @@ En línea:
 ```
 <script>
     console.log('hello world')
-</scrript>
+</script>
 ```
