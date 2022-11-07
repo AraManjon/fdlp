@@ -28,9 +28,11 @@ x OPERADORS
     · [Aritmètics](./operadors/aritmetics.md)
     · [Comparació](./operadors/comparacio.md)
     · [Lògics](./operadors/logics.md)
+    · [Condicionals](./operadors/condicionals.md) (if/ if-else)
 
-x EX: M3-ex2, M3-ex3
+x A CLASSE: M3-ex2,
 
-x OPCIONALS: M3-extra1, M3-extra2
+x EX: M3-ex3
+
 
 
