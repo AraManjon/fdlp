@@ -66,5 +66,13 @@ x [Àmbit variables](./variables/ambit-variables.md)
 
 x CAP DE SETMANA: M4- Extra 1, M4-Extra 2, M4-Extra3, M6-Ex1
 
+**07·NOV**
+
+x Correcció: M4- Extra 1, M4-Extra 2, M4-Extra3
+
+x [Loops](./loops/loops.md)
+
+x EX: M5-ex1
+
 
 
