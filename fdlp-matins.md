@@ -34,5 +34,11 @@ x A CLASSE: M3-ex2,
 
 x EX: M3-ex3
 
+**08·NOV**
+
+x A classe: M3-extra1
+
+x A casa: M3-extra2, M4-ex1
+
 
 

@@ -74,5 +74,15 @@ x [Loops](./loops/loops.md)
 
 x EX: M5-ex1
 
+**08·NOV**
+
+x Correcció: M5-ex1
+
+x A classe: M5-ex2
+
+x [Loops](./loops/loops.md)
+
+x A casa: M5-ex3, M5-ex4
+
 
 
