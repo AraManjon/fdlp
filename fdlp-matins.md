@@ -40,5 +40,16 @@ x A classe: M3-extra1
 
 x A casa: M3-extra2, M4-ex1
 
+**09·NOV**
+
+x Correcció: M3-extra2, M4-ex1
+
+x [Operador ternari i else if](./operadors/condicionals.md)
+
+x A classe: M4-ex2
+
+x A casa: M4-ex3
+
+
 
 
