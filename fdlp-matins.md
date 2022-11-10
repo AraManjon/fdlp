@@ -54,6 +54,14 @@ x A classe: M4-ex2
 
 x A casa: M4-ex3
 
+**10·NOV**
+
+x Correcció: M4-ex2, M4-ex3
+
+x [Switch](./switch/switch.md)
+
+x Cap de setmana: M4-ex5, M4-ex6, M4-extra1
+
 
 
 
