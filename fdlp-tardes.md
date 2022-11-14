@@ -86,5 +86,30 @@ x [Loops](./loops/loops.md)
 
 x A casa: M5-ex3, M5-ex4
 
+**09·NOV**
+
+x Correcció: M5-ex3, M5-ex4
+
+x [funcions avançat](./funcions/funcions-avan%C3%A7at.md)
+
+x A casa: M5-ex5
+
+**10·NOV**
+
+x A classe: M5-ex5
+
+x A casa: M5-extra1, M5-extra2
+
+**14·NOV**
+
+x Correcció: M5-extra1, M5-extra2
+
+x [Mètodes d'array](./metodes-array)
+
+x A casa: M6-ex2, M7.1-ex6
+
+
+
+
 
 
