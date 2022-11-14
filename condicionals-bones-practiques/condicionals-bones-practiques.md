@@ -13,48 +13,55 @@ Si volem afegir tres condicions noves, hauríem d'escriure massa codi burocràti
 Exemple:
 
 ```
-function getPokemon(type) {
 
-  let pokemon;
-  switch (type) {
-    case 'Water':
-      pokemon = 'Squirtle';
-      break;
-    case 'Fire':
-      pokemon = 'Charmander';
-      break;
-    case 'Plant':
-      pokemon = 'Bulbasur';
-      break;
-    case 'Electric':
-      pokemon = 'Pikachu';
-      break;
-    default:
-      pokemon = 'Mew';
-  }
-  return pokemon;
+let type = 'Electric'
+let pokemon;
+
+switch (type) {
+  case 'Water':
+    pokemon = 'Squirtle';
+    break;
+  case 'Fire':
+    pokemon = 'Charmander';
+    break;
+  case 'Plant':
+    pokemon = 'Bulbasur';
+    break;
+  case 'Electric':
+    pokemon = 'Pikachu';
+    break;
+  default:
+    pokemon = 'Mew';
 }
 
-console.log(getPokemon('Fire')); // Result: Charmander
+console.log(pokemon) // 'Pikachu'
+
+let type = 'unknown'
+
+console.log(pokemon) // 'Mew'
 ```
 ### Com podem evitar l'ús del ```switch```? Amb ```literals d'objectes```.
 
 Els objectes són simples, fàcils d'escriure, llegir i mantenir. Veiem com seria l'exemple anterior amb un literal d'objecte.
 
 ```
-const pokemon = {
+let type = 'Electric'
+
+const pokemonDictionary = {
     Water: 'Squirtle',
     Fire: 'Charmander',
     Plant: 'Bulbasur',
     Electric: 'Pikachu'
   };
 
-function getPokemon(type) {
-  return pokemon[type] ?? 'Mew';
-}
-console.log(getPokemon('Fire')); // Result: Charmander
 
-console.log(getPokemon('unknown')); // Result: Mew
+const pokemon = pokemonDictionary[type] ?? 'Mew';
+
+console.log(pokemon) // 'Pikachu'
+
+let type = 'unknown'
+
+console.log(pokemon) // 'Mew'
 ```
 
 ##  **Fer condicionals descriptius**
@@ -150,7 +157,9 @@ L'else, ens deixa la porta oberta a tot el que no compleixi la condició del ```
 Acaba queden poc clar i explicatiu quan i perquè volem que s'executi el codi de la via alternativa que ens ofereix l'```else```.
 
 👍 Millor utilitzar clàusules de guarda
+
 👍 Operador ternari
+
 👍 Retornar ```undefined``` quan no es dona la condició.
 
 Exemple:
