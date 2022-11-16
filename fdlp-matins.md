@@ -80,6 +80,14 @@ x Instal·lar NODE
 
 x Mirar documentació JEST
 
+**16·NOV**
+
+x Correcció: M4-extra2
+
+x Moduls
+
+x A casa: M6-ex1
+
 
 
 
