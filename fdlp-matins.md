@@ -68,6 +68,19 @@ x Correcció: M4-ex5, M4-ex6
 
 x A casa: M4-extra1, M4-extra3
 
+**15·NOV**
+
+x Correcció: M4-extra1, M4-extra3
+
+x [Bones practiques condicionals](./condicionals-bones-practiques/condicionals-bones-practiques.md)
+
+x A casa: M4-extra2
+
+x Instal·lar NODE
+
+x Mirar documentació JEST
+
+
 
 
 

@@ -108,6 +108,16 @@ x [Mètodes d'array](./metodes-array)
 
 x A casa: M6-ex2, M7.1-ex6
 
+**15·NOV**
+
+x Correcció: M6-ex2, M7.1-ex6
+
+x Mòduls
+
+x Test amb Jest
+
+x A casa: fer test de funcions sum, rest, mult i div
+
 
 
 
