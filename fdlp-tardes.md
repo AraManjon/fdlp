@@ -118,6 +118,22 @@ x Test amb Jest
 
 x A casa: fer test de funcions sum, rest, mult i div
 
+**16·NOV**
+
+x Correcció: sum, rest, mult i div amb test
+
+x A classe: M7.2-ex5
+
+x A casa: M7.2-ex7
+
+**17·NOV**
+
+x Correcció: M7.2-ex7
+
+x TDD
+
+x Cap de setmana: [bingo](./bingo-exercise/readme.md)
+
 
 
 
