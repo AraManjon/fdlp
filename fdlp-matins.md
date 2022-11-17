@@ -84,9 +84,19 @@ x Mirar documentació JEST
 
 x Correcció: M4-extra2
 
-x Moduls
+x [Moduls](./moduls-javascript/moduls-example/)
 
 x A casa: M6-ex1
+
+**17·NOV**
+
+x Correcció: M6-ex1
+
+x A clase: M7.1-ex3
+
+x Cap de setmana: M7.1-ex4, M7.2-ex7, M7.3-ex1, M7.3-ex7
+
+
 
 
 
