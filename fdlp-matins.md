@@ -96,6 +96,12 @@ x A clase: M7.1-ex3
 
 x Cap de setmana: M7.1-ex4, M7.2-ex7, M7.3-ex1, M7.3-ex7
 
+**21·NOV**
+
+x Correcció: M7.1-ex4, M7.2-ex7, M7.3-ex1, M7.3-ex7
+
+x [Test](./tdd/sum-exercice/)
+
 
 
 

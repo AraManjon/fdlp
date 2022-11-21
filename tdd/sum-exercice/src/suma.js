@@ -1,10 +1,5 @@
-import { validateNum } from "./validateNum";
-
-export function suma(a, b) {
+export function suma (num1, num2) {
     
-    validateNum(a)
-    validateNum(b)
-
-    const result = a + b
-    return result;
+    const result = num1 + num2
+    return result
 }

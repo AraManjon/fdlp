@@ -1,9 +1,9 @@
-import { suma } from "../src/suma.js";
-test('sumar 1 + 2 es igual a 3', () => {
+import { suma } from "../src/suma.js"
+test('suma 3 and 4 returns 7', function () {
 
-  const expectedResult = 3
+    const expectedResult = 7
 
-  const result = suma(1, 2)
+    const resultSum = suma(3, 4)
 
-  expect(result).toBe(expectedResult);
-});
+    expect( resultSum ).toBe( expectedResult )
+})
