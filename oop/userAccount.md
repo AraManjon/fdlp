@@ -20,7 +20,7 @@ Com a mètodes només haurà de tenir els getters (excepte el password) i setter
 
 **D**eleteAccount per accedir a aquesta opció, s'haurà de validar aquest compte (veure més abaix que es validar el compte). En el cas que es compleixi la validació, l'eliminarem. Mostrarem un missatge conforme s'ha eliminat correctament.
 
-✅ Validar el compte: Demanarem a l'usuari/a que introdueixi l'email i el password, en el cas que **NO** existeixi cap compte amb aquest email o el password **NO** sigui correcte, li mostrarem un missatge de 'L'email o el password que has escrit no són correctes'. En cas que existeixi un compte amb aquest hotel i eel password sigui correcte, el compte es considerarà validat correctament.
+✅ Validar el compte: Demanarem a l'usuari/a que introdueixi l'email i el password, en el cas que **NO** existeixi cap compte amb aquest email o el password **NO** sigui correcte, li mostrarem un missatge de 'L'email o el password que has escrit no són correctes'. En cas que existeixi un compte amb aquest email i el password sigui correcte, el compte es considerarà validat correctament.
 
 
 

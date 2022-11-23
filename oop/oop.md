@@ -32,16 +32,7 @@ console.log('Hello World!')
 
 Molts cops es descriu Javascript com un llenguatge orientat a objectes basat en prototips. És a través de prototips que s'executen els mecanismes d'herència. Els objectes poden tenir un objecte prototip, que actua com objecte plantilla del qual hereta mètodes i propietats.
 
-![Exemple de com amb javascript utilitza els prototips com sistema d'herència.](./prototips.png)
-
-
-### **Herència de classes vs. herència mitjançant ptototips**
-
-**Herència de classes**: una classe és com un motlle. Una descripció de l'objecte que es crearà. Un objecte hereta d'una classe i es coonverteix en subclase. Per tant, l'herenecia és jerarquica de epare a fills. 
-
-A Javascript, la paraula **class** es va ontroduir en ES6, per ser més similar sintàcticament a llenguatges propis d'OOP, com Java. Però class en realitat éees una funció constructora.
-
-Amb l'**herència prototípica** s'utilitza la cadena de prototips per connectar el fill al pare. El que es permeta amb aquest tipus d'herència és que un objecte sigui compost de molts objectes d'origen diferent. Per tant, permet una herèencia més selectiva i plana.
+Amb l'**herència prototípica** s'utilitza la cadena de prototips per connectar el fill al pare. El que es permeta amb aquest tipus d'herència és que un objecte sigui compost de molts objectes d'origen diferent. Per tant, permet una herència més selectiva i plana.
 
 #### **Funcions: ciutadans de primera classe**
 
@@ -218,18 +209,6 @@ circle2.contructor
 
 ```
 
-```
-let obj = {}
-obj.contructor 
-// ƒ Object() { [native code] }
-// Podriem utilitzar new Object() per crear un objecte
-
-let str = ''
-str.constructor 
-// ƒ String() { [native code] }
-// Podriem utilitzar new String() per crear un objecte
-```
-
 #### **Constructors**
 
 A partir d'ES6 podem crear objectes a partir de la paraula clau ```class```, tal com es fa en altres llenguatges orientats a objectes.
@@ -246,12 +225,17 @@ class Person {
 }
 
 const persona = new Person('Pepito')
+persona.greet() // Output: 'Hello, I am Pepito'
+
+persona.name // Output: 'Pepito'
 ```
 
 #### **Getters i Setters**
 De vegades és necessari tenir variables i mètodes que quedin encapsulats en l'objecte, és a dir, els quals no es pugui operar amb ells des de fora del mateix objecte, evitant així modificar els valors des de fora de l'objecte.
 
-Per això podem transformar aquests valors en privats.
+Existeix una proposta experimental per privatitzar els valors i els mètodes a javascript i és utilitzant el símbol ```#``` davant de la propietat o mètode que volem privatitzar.
+
+En el cas de les propietats, per accedir a elles, haurem d'utilitzar els mètodes ```set``` (per modificar) i ```get```(per consultar).
 
 ```
 class Person {
@@ -264,22 +248,26 @@ class Person {
         console.log(`Hello, I am ${this.#name}`)
     }
 
-    get() {
+    getName() {
         return this.#name
     }
 
-    set(name) {
+    setName(name) {
         this.#name = name
     }
-
-    toString () {return `${this.#name}`}
 }
 
-const persona = new Person('Pepito')
-persona.toString() // 'Pepito'
-persona.name //undefined
+const person = new Person('Pepito')
+
+person.getName() // Output: 'Pepito'
+
+persona.setName('Pepita')
+
+person.getName() // Output: 'Pepita'
 ```
 
-### Encapsulament
+Per coneixer més sobre aquesta la proposta de l'[ús de ```#```](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes/Private_class_fields).
+
+### Respectar el concepte d'encapsulament
 
 L'encapsulament fa servir les tècniques de l'ocultació per aïllar l'objecte de l'exterior. Aquest aïllament fa que les dades (propietats) de l'objecte només es puguin gestionar amb les operacions (mètodes) definides en aquest objecte. Es deia que JavaScript no podia amagar i/o encapsular dades perquè els objectes no podien tenir variables i mètodes privats com passa amb Java i altres llenguatges.
