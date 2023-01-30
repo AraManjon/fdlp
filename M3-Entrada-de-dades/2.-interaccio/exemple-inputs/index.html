@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Type of inputs</title>
+</head>
+<body>
+    <h1>Type of inputs</h1>
+    <label>type text</label>
+    <input type="text" id="text-input" placeholder="Enter your name">
+    <button onclick="retrieveTextValue()">text value</button>
+
+    <label>type number</label>
+    <input type="number" id="number-input">
+    <button onclick="retrieveNumberValue()">number value</button>
+
+    <label>type number amb min i max en intervals de 0.1</label>
+    <input type="number" min="0" max="1" step="0.1" id="number-min-max-input">
+    <button onclick="retrieveNumberMinMaxValue()">number nwith min and max value</button>
+
+    <label>type password</label>
+    <input type="password" id="password-input">
+    <button onclick="retrievePasswordValue()">password value</button>
+
+    <label>type email</label>
+    <input type="email" id="email-input">
+    <button onclick="retrieveEmailValue()">email value</button>
+
+    <label>type search</label>
+    <input type="search" id="search-input">
+    <button onclick="retrieveSearchValue()">search value</button>
+
+    <label>type date</label>
+    <input type="date" id="date-input">
+    <button onclick="retrieveDateValue()">date value</button>
+
+    <label>type month</label>
+    <input type="month" id="month-input">
+    <button onclick="retrieveMonthValue()">month value</button>
+
+    <label>type week</label>
+    <input type="week" id="week-input">
+    <button onclick="retrieveWeekValue()">week value</button>
+
+    <label>type time</label>
+    <input type="time" id="time-input">
+    <button onclick="retrieveTimeValue()">time value</button>
+
+    <label>type color</label>
+    <input type="color" id="color-input">
+    <button onclick="retrieveColorValue()">color value</button>
+
+    <label>type checkbox</label>
+    <div>
+        <input type="checkbox" id="checkbox-input-blue" value="blue">
+        <label for="checkbox-input-blue">Blue</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="checkbox-input-red" value="red">
+        <label for="checkbox-input-red">Red</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="checkbox-input-white" value="white">
+        <label for="checkbox-input-white">White</label>
+    </div>
+
+    <button onclick="retrieveCheckboxValues()">checkbox values</button>
+
+    <label>type radio</label>
+    <div>
+        <input type="radio" name="radio-input" value="Yes" id="yes-option">
+        <label for="yes-option">Yes</label> 
+    </div>
+
+    <div>
+        <input type="radio" name="radio-input" value="No" id="no-option">
+        <label for="no-option">No</label> 
+    </div>
+    <button onclick="retrieveRadioValues()">radio value</button>
+
+    <label>type select</label>
+    <select type="select" name="pets" id="pet-select">
+        <option value="">--Please choose an option--</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+    </select>
+    <button onclick="retrieveSelectValues()">select value</button>
+
+</body>
+</html>
