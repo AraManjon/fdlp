@@ -176,7 +176,6 @@ function hasESNumber() {
 }
 
 // better
-
 function hasESNumber() {
     return person.phone.exists === true && person.phone.number.startsWith('+34')) 
 }
